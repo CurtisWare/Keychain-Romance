@@ -2,17 +2,23 @@ import time
 import thumby
 import math
 import random
-import json
+import ujson
 import gc
 import sys
 
 #SAVING THE GAME
 
+thumby.saveData.setName("KeychainRomance")
 
-# thumby.saveData.setItem("hasSave", 1)
 
 
 thumby.display.setFPS(60)
+thumby.display.fill(0)
+thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
+thumby.display.drawText(str(thumby.saveData.hasItem("hasSave")), 1, 1, 1)
+print(thumby.saveData.hasItem("hasSave"))
+thumby.display.update()
+time.sleep(2)
 thumby.display.setFont("/lib/font5x7.bin", 5, 7, 1)
 
 thumby.display.drawText("check 1", 0, 0, 1)
@@ -236,26 +242,27 @@ def getDateScript(script, girlName):
     returnScript = None
     if (girlName == "Nadia") or (girlName == "Grape"):
         with open("Games/KeychainRomance/datescripts1.json", "r") as file:
-            data = json.load(file)
+            data = ujson.load(file)
             returnScript = data[script]
             del data
     elif (girlName == "Marlene") or (girlName == "Allene"):
         with open("Games/KeychainRomance/datescripts2.json", "r") as file:
-            data = json.load(file)
+            data = ujson.load(file)
             returnScript = data[script]
             del data
     elif (girlName == "Aku") or (girlName == "Risol"):
         with open("Games/KeychainRomance/datescripts3.json", "r") as file:
-            data = json.load(file)
+            data = ujson.load(file)
             returnScript = data[script]
             del data
     elif (girlName == "Gamer"):
         with open("Games/KeychainRomance/datescripts4.json", "r") as file:
-            data = json.load(file)
+            data = ujson.load(file)
             returnScript = data[script]
             del data
     else:
         print("Unsuccessful Date Script Grab")
+    gc.collect()
     return(returnScript)
     
         
@@ -695,8 +702,7 @@ def createSave():
 def loadGame():
     thumby.display.fill(0)
     thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
-    thumby.display.drawText(str(thumby.saveData.hasItem("hasSave")), 1, 1, 1)
-    thumby.display.update()
+    thumby.display.drawText(str(thumbte()
     time.sleep(2)
     if (thumby.saveData.hasItem("hasSave")):
         callList = thumby.saveData.getItem("callList")
@@ -1014,9 +1020,14 @@ initiateEvent = False
 
 while(1):
     
-    thumby.saveData.setName("SavedGame")
+    
+    # with open("Saves/SavedGame/persistent.json", "r") as file:
+    #     saveData = ujson.load(file)
+    #     testaffinity = saveData["nadiaAffinity"]
+    #     del saveData
+    #     print(testaffinity)
     pressFlash = True
-    isNewGame = False
+    isNewGame = False # Make this true later
     menuCursorInit = True
     menuCursorPosition = 0
     blackoutScreen = True
@@ -1034,6 +1045,8 @@ while(1):
         if(thumby.actionPressed()):
             screen_wipe()
             gamestate = 2
+            del titleSprite
+            break
         ms0 = (time.ticks_ms() // 650)
         pressSprite.x = 14
         pressSprite.y = 32
@@ -1100,6 +1113,7 @@ while(1):
                 thumby.display.fill(0)
             introductionText = (["%NARRATION%"], ["Welcome to Keychain Romance!"], ["Try talking to some girls and making friends!"], ["Talking to girls often will open up new activities and locations!"], ["First, try selecting 'GO OUT' to go outside and walk around."], ["If you're lucky, you may run into someone who will want to hang out with you!"], ["If you want to hang out with them again, try contacting them on the 'PHONE'!"], ["But remember..."], ["People have their own lives and may not have time to see you at the moment!"], ["You might also want to go to the 'SHOP's and buy some gifts for your new friends!"], ["That's about it, so get out there and make an impact!"], ["Good luck ..."], ["and..."], ["Believe in yourself!"], ["%DONE%"])
             eventHandler(introductionText, None, None)
+            del introductionText
             isNewGame = False
             okToPress = False
              
@@ -1283,9 +1297,7 @@ while(1):
                 chosenGirl = girlGamer
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
-                eventHandler(eventString, chosenGirl, girlHome)
-                callList.append(girlGamer)
-                girlGamer.affinity += 1
+                eventHandler(eventString, chosenG          girlGamer.affinity += 1
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
@@ -1295,7 +1307,7 @@ while(1):
                 eventString = getDateScript(scriptName, chosenGirl.name)
                 eventHandler(eventString, chosenGirl, None)
                 callList.append(girlNadia)
-                girlNAdia.affinity += 1
+                girlNadia.affinity += 1
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
@@ -1592,8 +1604,7 @@ while(1):
                 if(thumby.buttonD.justPressed() and currentShop < len(itemNames) - 1):
                     currentShop += 1
                 if(len(itemNames) > 2 and currentShop > 1):
-                    thumby.display.drawText(stuff.name(itemNames[currentShop - 2]), 1, 10, 1)
-                    thumby.display.drawText(str(currentInventory[itemNames[currentShop - 2]]), 69, 10, 1)
+                    thumby.display.drawT[currentShop - 2]]), 69, 10, 1)
                 if(len(itemNames) > 1 and currentShop > 0):
                     thumby.display.drawText(stuff.name(itemNames[currentShop - 1]), 1, 16, 1)
                     thumby.display.drawText(str(currentInventory[itemNames[currentShop - 1]]), 69, 16, 1)
