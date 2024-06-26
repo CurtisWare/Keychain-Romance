@@ -1,0 +1,714 @@
+{
+  "GamerMeeting": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You decide to go somewhere."
+    ],
+    [
+      "Since you're new to the area, the only place you can think to go is the nearby park."
+    ],
+    [
+      "It's a quiet, but pleasant place to be."
+    ],
+    [
+      "%LOCATION%"
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "As you stand on a small bridge overlooking a stream, you see a woman do a small wave to grab your attention..."
+    ],
+    [
+      "\"Hi there!!\""
+    ],
+    [
+      "%CIRCLEMEET%"
+    ],
+    [
+      "%CHOICE%"
+    ],
+    [
+      "First!"
+    ],
+    [
+      "Second!"
+    ],
+    [
+      1
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You chose one!"
+    ],
+    [
+      2
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You chose two!"
+    ],
+    [
+      "%MERGE%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "WOW G2G!"
+    ],
+    [
+      "%GIFT%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUp1": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "This is call one!"
+    ],
+    [
+      "LMAO yeah me too"
+    ],
+    [
+      "myeh"
+    ],
+    [
+      "Anyway, yeah! I'm free today!"
+    ],
+    [
+      "Here, lemme call u rq"
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "So, where do you wanna go?"
+    ],
+    [
+      "I'm kinda in the mood for borgar..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUp2": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "This is call two!"
+    ],
+    [
+      "LMAO yeah me too"
+    ],
+    [
+      "myeh"
+    ],
+    [
+      "Anyway, yeah! I'm free today!"
+    ],
+    [
+      "Here, lemme call u rq"
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "So, where do you wanna go?"
+    ],
+    [
+      "I'm kinda in the mood for borgar..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUp3": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "This is call three!"
+    ],
+    [
+      "LMAO yeah me too"
+    ],
+    [
+      "myeh"
+    ],
+    [
+      "Anyway, yeah! I'm free today!"
+    ],
+    [
+      "Here, lemme call u rq"
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "So, where do you wanna go?"
+    ],
+    [
+      "I'm kinda in the mood for borgar..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpBurgers": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpBar": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpPark": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpVenue": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpWrestling": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpRestaurant": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpHome": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerphoneCallpickUpMall": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Oh hot DAMN, you know how I feel about borgar... mmm..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerBurgers1": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART ONE!"
+    ],
+    [
+      "Gamer is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerBurgers2": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART TWO!"
+    ],
+    [
+      "Gamer is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerBurgers3": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART THREE!"
+    ],
+    [
+      "Gamer is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerBar1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerBar2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerBar3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerPark1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerPark2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerPark3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerVenue1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerVenue2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerVenue3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerWrestling1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerWrestling2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerWrestling3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerRestaurant1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerRestaurant2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerRestaurant3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerHome1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerHome2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerHome3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerMall1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerMall2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerMall3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerGiftNeutral": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerGiftGood": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerGiftSpecial": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerSpecialEvent1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerSpecialEvent2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "GamerSpecialEvent3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ]
+}
+

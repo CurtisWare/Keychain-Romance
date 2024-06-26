@@ -1,0 +1,1412 @@
+{
+  "MarleneMeeting": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You decide to go somewhere."
+    ],
+    [
+      "Since you're new to the area, the only place you can think to go is the nearby park."
+    ],
+    [
+      "It's a quiet, but pleasant place to be."
+    ],
+    [
+      "%LOCATION%"
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "As you stand on a small bridge overlooking a stream, you see a woman do a small wave to grab your attention..."
+    ],
+    [
+      "\"Hi there!!\""
+    ],
+    [
+      "%CIRCLEMEET%"
+    ],
+    [
+      "%CHOICE%"
+    ],
+    [
+      "First!"
+    ],
+    [
+      "Second!"
+    ],
+    [
+      1
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You chose one!"
+    ],
+    [
+      2
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You chose two!"
+    ],
+    [
+      "%MERGE%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "WOW G2G!"
+    ],
+    [
+      "%GIFT%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUp1": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "This is call one!"
+    ],
+    [
+      "LMAO yeah me too"
+    ],
+    [
+      "myeh"
+    ],
+    [
+      "Anyway, yeah! I'm free today!"
+    ],
+    [
+      "Here, lemme call u rq"
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "So, where do you wanna go?"
+    ],
+    [
+      "I'm kinda in the mood for borgar..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUp2": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "This is call two!"
+    ],
+    [
+      "LMAO yeah me too"
+    ],
+    [
+      "myeh"
+    ],
+    [
+      "Anyway, yeah! I'm free today!"
+    ],
+    [
+      "Here, lemme call u rq"
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "So, where do you wanna go?"
+    ],
+    [
+      "I'm kinda in the mood for borgar..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUp3": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "This is call three!"
+    ],
+    [
+      "LMAO yeah me too"
+    ],
+    [
+      "myeh"
+    ],
+    [
+      "Anyway, yeah! I'm free today!"
+    ],
+    [
+      "Here, lemme call u rq"
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "So, where do you wanna go?"
+    ],
+    [
+      "I'm kinda in the mood for borgar..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpBurgers": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpBar": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpPark": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpVenue": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpWrestling": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpRestaurant": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpHome": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenephoneCallpickUpMall": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneBurgers1": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART ONE!"
+    ],
+    [
+      "Marlene is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneBurgers2": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART TWO!"
+    ],
+    [
+      "Marlene is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneBurgers3": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART THREE!"
+    ],
+    [
+      "Marlene is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneBar1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneBar2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneBar3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenePark1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenePark2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarlenePark3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneVenue1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneVenue2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneVenue3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneWrestling1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneWrestling2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneWrestling3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneRestaurant1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneRestaurant2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneRestaurant3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneHome1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneHome2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneHome3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneMall1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneMall2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneMall3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneGiftNeutral": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneGiftGood": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneGiftSpecial": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneSpecialEvent1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneSpecialEvent2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "MarleneSpecialEvent3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneMeeting": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You decide to go somewhere."
+    ],
+    [
+      "Since you're new to the area, the only place you can think to go is the nearby park."
+    ],
+    [
+      "It's a quiet, but pleasant place to be."
+    ],
+    [
+      "%LOCATION%"
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "As you stand on a small bridge overlooking a stream, you see a woman do a small wave to grab your attention..."
+    ],
+    [
+      "\"Hi there!!\""
+    ],
+    [
+      "%CIRCLEMEET%"
+    ],
+    [
+      "%CHOICE%"
+    ],
+    [
+      "First!"
+    ],
+    [
+      "Second!"
+    ],
+    [
+      1
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You chose one!"
+    ],
+    [
+      2
+    ],
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You chose two!"
+    ],
+    [
+      "%MERGE%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "WOW G2G!"
+    ],
+    [
+      "%GIFT%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUp1": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "Hello there! It's good to hear from you!"
+    ],
+    [
+      "You want to do something together? That's very sweet of you."
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Did you have anything specific in mind?"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUp2": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "Good day! I hope you're doing well."
+    ],
+    [
+      "Me? I've been thinking."
+    ],
+    [
+      "Thinking too much, probably."
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Forgive me. What are you doing today?"
+    ],
+    [
+      "Would you like to do something with me?"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUp3": [
+    [
+      "%TEXTING%"
+    ],
+    [
+      "This is call three!"
+    ],
+    [
+      "LMAO yeah me too"
+    ],
+    [
+      "myeh"
+    ],
+    [
+      "Anyway, yeah! I'm free today!"
+    ],
+    [
+      "Here, lemme call u rq"
+    ],
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "So, where do you wanna go?"
+    ],
+    [
+      "I'm kinda in the mood for borgar..."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpBurgers": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "Hamburgers? Haha... yes, it's important to enjoy more simple pleasures, isn't it?"
+    ],
+    [
+      "I would be delighted to get Hamburgers with you."
+    ],
+    [
+      "I'll see you there."
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpBar": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpPark": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpVenue": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpWrestling": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpRestaurant": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpHome": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenephoneCallpickUpMall": [
+    [
+      "%PHONECALL%"
+    ],
+    [
+      "CHANGE THIS"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneBurgers1": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART ONE!"
+    ],
+    [
+      "Allene is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneBurgers2": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART TWO!"
+    ],
+    [
+      "Allene is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneBurgers3": [
+    [
+      "%NARRATION%"
+    ],
+    [
+      "You went to get some burgers PART THREE!"
+    ],
+    [
+      "Allene is already waiting for you."
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "I'm about to smash... so many burgers, honestly."
+    ],
+    [
+      "That was a really good date, thank you!"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneBar1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneBar2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneBar3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenePark1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenePark2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AllenePark3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneVenue1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneVenue2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneVenue3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneWrestling1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneWrestling2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneWrestling3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneRestaurant1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneRestaurant2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneRestaurant3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneHome1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneHome2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneHome3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneMall1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneMall2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneMall3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneGiftNeutral": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneGiftGood": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneGiftSpecial": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneSpecialEvent1": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneSpecialEvent2": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ],
+  "AlleneSpecialEvent3": [
+    [
+      "%DATETEXT%"
+    ],
+    [
+      "This is just test text!"
+    ],
+    [
+      "%LOCATIONGIRL%"
+    ],
+    [
+      "%DONE%"
+    ]
+  ]
+}
