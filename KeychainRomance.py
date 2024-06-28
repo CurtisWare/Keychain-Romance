@@ -13,12 +13,6 @@ thumby.saveData.setName("KeychainRomance")
 
 
 thumby.display.setFPS(60)
-thumby.display.fill(0)
-thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
-thumby.display.drawText(str(thumby.saveData.hasItem("hasSave")), 1, 1, 1)
-print(thumby.saveData.hasItem("hasSave"))
-thumby.display.update()
-time.sleep(2)
 thumby.display.setFont("/lib/font5x7.bin", 5, 7, 1)
 
 thumby.display.drawText("check 1", 0, 0, 1)
@@ -160,7 +154,7 @@ morbidKnights2 = stuff("MorbidKnights 2", "Stuff", 75, morbidKnightsSprite)
 toyThumby = stuff("Thumby", "Stuff", 50, thumbySprite)
 
 
-currentInventory = { icedCream : 0, greasyChips : 0, sourPoopies : 0, fancyChocolate : 0, kitchenKnife : 0, combatKnife : 0, tankBook : 0, scifiNovel : 0, toyGun : 0, toyBug : 0, realBug : 0, snowGlobe : 0, prettyFlowers : 0, wildFlower : 0, fakeSkull : 0, morbidKnights2 : 0, rockTicket : 0, wrestlingTicket : 0, toyThumby : 0 }
+currentInventory = {icedCream : 0, greasyChips : 0, sourPoopies : 0, fancyChocolate : 0, kitchenKnife : 0, combatKnife : 0, tankBook : 0, scifiNovel : 0, toyGun : 0, toyBug : 0, realBug : 0, snowGlobe : 0, prettyFlowers : 0, wildFlower : 0, fakeSkull : 0, morbidKnights2 : 0, rockTicket : 0, wrestlingTicket : 0, toyThumby : 0}
 shopList = [icedCream, greasyChips, sourPoopies, fancyChocolate, kitchenKnife, combatKnife, tankBook, scifiNovel, rockAlbum, rnbAlbum, toyGun, toyBug, realBug, snowGlobe, fakeSkull, toyThumby, prettyFlowers, wildFlower, rockTicket, morbidKnights2, wrestlingTicket]
 
 class girl:
@@ -191,7 +185,8 @@ girlAllene = girl("Allene", None, None, None, 0, 0, 100, (localPark, girlHome, n
 girlAku = girl("Aku", None, None, None, 0, 0, 100, (bigMall, gumchBurger, rockVenue, wrestlingRing), (rockTicket, wrestlingTicket, combatKnife, realBug, sourPoopies, greasyChips), fakeSkull)
 girlRisol = girl("Risol", None, None, None, 0, 0, 100, (niceRestaurant, girlHome, bigMall, whipCat), (prettyFlowers, scifiNovel, fancyChocolate, rnbAlbum, icedCream), kitchenKnife)
 girlGamer = girl("Gamer", None, None, None, 0, 0, 100, (girlHome, gumchBurger, bigMall), (greasyChips, toyThumby, sourPoopies, scifiNovel), morbidKnights2)
-        
+
+    
 
 thumby.display.fill(0)
 thumby.display.drawText("Girls Loaded", 0, 0, 1)
@@ -240,23 +235,38 @@ def getGirlGraphics(girl):
 
 def getDateScript(script, girlName):
     returnScript = None
-    if (girlName == "Nadia") or (girlName == "Grape"):
-        with open("Games/KeychainRomance/datescripts1.json", "r") as file:
+    if (girlName == "Nadia"):
+        with open("Games/KeychainRomance/nadiascripts.json", "r") as file:
             data = ujson.load(file)
             returnScript = data[script]
             del data
-    elif (girlName == "Marlene") or (girlName == "Allene"):
-        with open("Games/KeychainRomance/datescripts2.json", "r") as file:
+    elif (girlName == "Grape"):
+        with open("Games/KeychainRomance/grapescripts.json", "r") as file:
             data = ujson.load(file)
             returnScript = data[script]
             del data
-    elif (girlName == "Aku") or (girlName == "Risol"):
-        with open("Games/KeychainRomance/datescripts3.json", "r") as file:
+    elif (girlName == "Allene"):
+        with open("Games/KeychainRomance/allenescripts.json", "r") as file:
+            data = ujson.load(file)
+            returnScript = data[script]
+            del data
+    elif (girlName == "Marlene"):
+        with open("Games/KeychainRomance/marlenescripts.json", "r") as file:
+            data = ujson.load(file)
+            returnScript = data[script]
+            del data
+    elif (girlName == "Aku"):
+        with open("Games/KeychainRomance/akuscripts.json", "r") as file:
+            data = ujson.load(file)
+            returnScript = data[script]
+            del data
+    elif (girlName == "Risol"):
+        with open("Games/KeychainRomance/risolscripts.json", "r") as file:
             data = ujson.load(file)
             returnScript = data[script]
             del data
     elif (girlName == "Gamer"):
-        with open("Games/KeychainRomance/datescripts4.json", "r") as file:
+        with open("Games/KeychainRomance/gamerscripts.json", "r") as file:
             data = ujson.load(file)
             returnScript = data[script]
             del data
@@ -435,6 +445,7 @@ def drawGal(girl):
     thumby.display.drawFilledRectangle(0, 0, 42, 40, 0)
 
 def dateText(girl, currentString):
+    thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
     textCounter = 0
     printSpeed = 1
     textXPos = 1
@@ -562,9 +573,9 @@ def eventHandler(event, girl, location): #event[action][sentence][textCounter]
         elif(event[action][sentence] == "%NARRATION%"):
             while(1):
                 action += 1
+                thumby.display.fill(0)
                 if(type(event[action][sentence]) == str):
                     if(event[action][sentence][textCounter] != "%"):
-                        thumby.display.fill(0)
                         currentString = event[action][sentence].split()
                         narrationText(currentString)
                 else:
@@ -574,17 +585,18 @@ def eventHandler(event, girl, location): #event[action][sentence][textCounter]
         elif(event[action][sentence] == "%DATETEXT%"):
             while(1):
                 action += 1
-                if(event[action][sentence][textCounter] != "%"):
-                    # thumby.display.fill(0)
-                    currentString = event[action][sentence].split()
-                    dateText(girl, currentString)
-                elif(event[action][sentence][textCounter] == "%"):
+                if(type(event[action][sentence]) == str):
+                    if(event[action][sentence][textCounter] != "%"):
+                        currentString = event[action][sentence].split()
+                        dateText(girl, currentString)
+                else:
+                    break
+                if(event[action][sentence][textCounter] == "%"):
                     break
         elif(event[action][sentence] == "%TEXTING%"):
             while(1):
                 action += 1
                 if(event[action][sentence][textCounter] != "%"):
-                    # thumby.display.fill(0)
                     currentString = event[action][sentence].split()
                     phoneCall(currentString, textMessages)
                 elif(event[action][sentence][textCounter] == "%"):
@@ -593,7 +605,6 @@ def eventHandler(event, girl, location): #event[action][sentence][textCounter]
             while(1):
                 action += 1
                 if(event[action][sentence][textCounter] != "%"):
-                    # thumby.display.fill(0)
                     currentString = event[action][sentence].split()
                     phoneCall(currentString, phoneFace)
                 elif(event[action][sentence][textCounter] == "%"):
@@ -674,7 +685,6 @@ def displayStats(girl):
         if i in sys.modules:
             del sys.modules[i]
             print(f"Successful {i} Deletion")
-    
 
 def screen_wipe():
     wipeHeight = 0
@@ -691,31 +701,13 @@ def screen_wipe():
     time.sleep(0.5)
 
 
-def createSave():
-    if thumby.saveData.hasItem("hasSave"):
-        return
-    else:
-        saveGame()
-
-
-
 def loadGame():
-    thumby.display.fill(0)
-    thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
-    thumby.display.drawText(str(thumbte()
-    time.sleep(2)
     if (thumby.saveData.hasItem("hasSave")):
-        callList = thumby.saveData.getItem("callList")
-        thumby.display.fill(0)
-        thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
-        thumby.display.drawText(str(thumby.saveData.getItem("hasSave")), 1, 1, 1)
-        thumby.display.update()
-        time.sleep(2)
-        thumby.display.fill(0)
-        thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
-        thumby.display.drawText(str(thumby.saveData.getItem("nadiaAffinity")), 1, 1, 1)
-        thumby.display.update()
-        time.sleep(2)
+        namelist = thumby.saveData.getItem("listOfGirls")
+        listOfAllGirls = [girlNadia, girlGrape, girlAllene, girlMarlene, girlAku, girlRisol, girlGamer]
+        for gal in listOfAllGirls:
+            if gal.name in namelist:
+                callList.append(gal)
         girlNadia.affinity = int(thumby.saveData.getItem("nadiaAffinity"))
         girlGrape.affinity = int(thumby.saveData.getItem("grapeAffinity"))
         girlAllene.affinity = int(thumby.saveData.getItem("alleneAffinity"))  
@@ -729,7 +721,10 @@ def loadGame():
 
 def saveGame():
     thumby.saveData.setItem("hasSave", True)
-    thumby.saveData.setItem("callList", callList)
+    namelist = []
+    for gal in callList:
+        namelist.append(gal.name)
+    thumby.saveData.setItem("listOfGirls", namelist)
     thumby.saveData.setItem("nadiaAffinity", girlNadia.affinity)
     thumby.saveData.setItem("grapeAffinity", girlGrape.affinity)
     thumby.saveData.setItem("alleneAffinity", girlAllene.affinity)
@@ -1203,10 +1198,11 @@ while(1):
                     break
                 elif(thumby.buttonA.pressed() and currentOption == 1):
                     gamestate = 5
+                    currentCall = 0
                     initiateEvent = True
                     break
                 elif(thumby.buttonA.pressed() and currentOption == 2):
-                    gamestate = 6          
+                    gamestate = 6
                     initiateEvent = True
                     break
                 elif(thumby.buttonA.pressed() and currentOption == 3):
@@ -1231,6 +1227,15 @@ while(1):
        
         
         if(returnToMenu is False):
+            
+            #TEST SITUATION
+            chosenGirl = girlAku
+            scriptName = f"{chosenGirl.name}Meeting"
+            eventString = getDateScript(scriptName, chosenGirl.name)
+            eventHandler(eventString, chosenGirl, bigMall)
+            returnToMenu = True
+            gamestate = 3
+            break
 
             if(girlNadia.affinity == 0):
                 chosenGirl = girlNadia
@@ -1253,7 +1258,7 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlAllene.affinity == 0):
+            elif(girlAllene.affinity == 0 and player.totalDates >= 4):
                 chosenGirl = girlAllene
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
@@ -1263,17 +1268,7 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlRisol.affinity == 0):
-                chosenGirl = girlRisol
-                scriptName = f"{chosenGirl.name}Meeting"
-                eventString = getDateScript(scriptName, chosenGirl.name)
-                eventHandler(eventString, chosenGirl, niceRestaurant)
-                callList.append(girlRisol)
-                girlRisol.affinity += 1
-                saveGame()
-                returnToMenu = True
-                gamestate = 3
-            elif(girlAku.affinity == 0):
+            elif(girlAku.affinity == 0 and random.randrange(1, 8) == 7 and player.totalDates >= 4):
                 chosenGirl = girlAku
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
@@ -1283,7 +1278,18 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlMarlene.affinity == 0):
+            elif(girlRisol.affinity == 0 and girlAku.affinity >= 16):
+                chosenGirl = girlRisol
+                scriptName = f"{chosenGirl.name}Meeting"
+                eventString = getDateScript(scriptName, chosenGirl.name)
+                eventHandler(eventString, chosenGirl, niceRestaurant)
+                callList.append(girlRisol)
+                girlRisol.affinity += 1
+                saveGame()
+                returnToMenu = True
+                gamestate = 3
+            elif(girlMarlene.affinity == 0 and currentInventory[rockTicket] >= 1):
+                currentInventory[rockTicket] -= 1
                 chosenGirl = girlMarlene
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
@@ -1293,11 +1299,12 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlGamer.affinity == 0):
+            elif(girlGamer.affinity == 0 and currentInventory[morbidKnights2] >= 1 and player.totalDates >= 30):
                 chosenGirl = girlGamer
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
-                eventHandler(eventString, chosenG          girlGamer.affinity += 1
+                eventHandler(eventString, chosenGirl, rockVenue)
+                girlGamer.affinity += 1
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
@@ -1320,10 +1327,7 @@ while(1):
         diceRoll = (time.ticks_ms() % 100)
         if(initiateEvent):
             initiateEvent = False
-            if(len(callList) > 1):
-                currentCall = 1
-            else:
-                currentCall = 0
+            currentCall = 0
             okToPress = False
             screen_wipe()
         
@@ -1480,9 +1484,6 @@ while(1):
             if(thumby.buttonA.pressed() and menuCursorPosition == 2):
                 gamestate = 10          
                 initiateEvent = True
-            # if(thumby.buttonA.pressed() and menuCursorPosition == 3):
-            #     gamestate = 11
-            #     initiateEvent = True
             thumby.display.fill(0)
             if(menuCursorPosition == 0):
                 menuCursor.y = 3           
@@ -1604,7 +1605,7 @@ while(1):
                 if(thumby.buttonD.justPressed() and currentShop < len(itemNames) - 1):
                     currentShop += 1
                 if(len(itemNames) > 2 and currentShop > 1):
-                    thumby.display.drawT[currentShop - 2]]), 69, 10, 1)
+                    thumby.display.drawText(stuff.name(itemNames[currentShop - 2]), 69, 10, 1)
                 if(len(itemNames) > 1 and currentShop > 0):
                     thumby.display.drawText(stuff.name(itemNames[currentShop - 1]), 1, 16, 1)
                     thumby.display.drawText(str(currentInventory[itemNames[currentShop - 1]]), 69, 16, 1)
