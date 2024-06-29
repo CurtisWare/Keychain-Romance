@@ -74,12 +74,66 @@
     ["Blocking on wake up? Your more disciplined than I gave you credit for! Don't forget though... I'm a grappling professional! You're gonna have to come outta that shell to beat me!"],
     ["%ADD1%"],
     [3],
-    ["%NARRATION"],
+    ["%NARRATION%"],
     ["Aku goes for a throw on you and you input a throw of your own! You tech the throw and take no damage!"],
     ["Sadly, it only postpones the inevitable. Aku still ends up winning the round."],
     ["%DATETEXT%"],
     ["WHOA! You had me sweating for a second there! You're more dangerous than I gave you credit for! I'm excited for the next round!"],
     ["%ADD2%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["The second round begins..."],
+    ["Aku is playing more conservatively this time."],
+    ["%DATETEXT%"],
+    ["...."],
+    ["%NARRATION%"],
+    ["Her defense is almost impossible to penetrate, but eventually you get her into a corner."],
+    ["She's blocking..."],
+    ["What will you do?"],
+    ["%CHOICE%"],
+    ["Wait"],
+    ["Qcf.MK"],
+    ["Jump"],
+    [1],
+    ["%NARRATION%"],
+    ["You keep your distance..."],
+    ["%DATETEXT%"],
+    ["Good call... I was ready for you to come closer..."],
+    ["But one good decision isn't enough!"],
+    ["%NARRATION%"],
+    ["You draw out the fight with your patience... but its not enough to withstand Aku's onslaught."],
+    ["She wins the second match"],
+    ["%ADD1%"],
+    [2],
+    ["%NARRATION%"],
+    ["You input a quarter circle forward and do your special move."],
+    ["%DATETEXT%"],
+    ["How about THIS!"],
+    ["%%NARRATION"],
+    ["Aku does an invincible reversal, going through your special move and sending you into a knock down state."],
+    ["She uses this new momentum to win the second match."],
+    [3],
+    ["%NARRATION%"],
+    ["You perform a neutral jump."],
+    ["%DATETEXT%"],
+    ["I've got you now!!!"],
+    ["%NARRATION%"],
+    ["Aku's face lights up as she inputs the motions for her command grab!"],
+    ["The screen goes into an extended cutscene showing her character perfectly catch you out of the air and do a fancy wrestling move to you."],
+    ["It spends all of her meter... but she is able to completely KO you with this one move!"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["Aku beats you twice in a game of 2 out of 3."],
+    ["%DATETEXT%"],
+    ["Hey."],
+    ["I wouldn't go so far as to say \"you're pretty good\" or anything, but at very least I think you've got some potential."],
+    ["If you want to get a few lessons, just hit me up any time."],
+    ["Now, if you don't mind..."],
+    ["I've got a line of people to defeat!"],
+    ["%NARRATION%"],
+    ["Aku graciously takes you on as a student."],
+    ["You decide to give her a call sometime..."],
+    ["...and to practice before then."],
     [
       "%DONE%"
     ]
@@ -218,11 +272,14 @@
   ],
   "AkuphoneCallpickUpVenue": [
     [
-      "%PHONECALL%"
+      "%TEXTING%"
     ],
     [
-      "CHANGE THIS"
+      "Ooo... a lil music show, eh?"
     ],
+    [">:3c"],
+    ["Yea i could be down for a lil dancin"],
+    ["perhaps even a lil schmoovin..."],
     [
       "%DONE%"
     ]
@@ -262,37 +319,60 @@
   ],
   "AkuphoneCallpickUpMall": [
     [
-      "%PHONECALL%"
+      "%TEXTING%"
     ],
     [
-      "CHANGE THIS"
+      "Ohoho!!"
     ],
+    ["You want a rematch at the arcade, huh?"],
+    ["You know I'm ready to whoop you any time!"],
     [
       "%DONE%"
     ]
   ],
   "AkuBurgers1": [
+    ["%LOCATION%"],
     [
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART ONE!"
+      "You arrive at GumchBurger."
     ],
     [
-      "Aku is already waiting for you."
+      "You wait out front for Aku for a few minutes."
     ],
-    [
-      "%LOCATIONGIRL%"
-    ],
-    [
-      "%DATETEXT%"
-    ],
-    [
-      "I'm about to smash... so many burgers, honestly."
-    ],
-    [
-      "That was a really good date, thank you!"
-    ],
+    ["She doesn't seem to be showing up."],
+    ["What should you do?"],
+    ["%CHOICE%"],
+    ["Call her"],
+    ["Go inside"],
+    [1],
+    ["%NARRATION%"],
+    ["You call her on the phone."],
+    ["%PHONECALL%"],
+    ["Hey there!"],
+    ["You're gonna have to speak up a little, it's loud in here!"],
+    ["%NARRATION%"],
+    ["\"In here\"?"],
+    ["%PHONECALL%"],
+    ["Huh? Yeah!"],
+    ["I already ordered! I'm inside!"],
+    ["You better hurry up! I'm almost done eating!"],
+    ["%LOCATIONGIRL%"],
+    [2],
+    ["%NARRATION%"],
+    ["You give up on waiting and go inside."],
+    ["Aku is inside, sitting in the corner waving at you..."],
+    ["She is already halfway through her meal..."],
+    ["%LOCATIONGIRL%"],
+    ["%DATETEXT%"],
+    ["Hey there!"],
+    ["I figured you were cool and wouldn't mind if I went ahead and started without you."],
+    ["I was hungry, you know!"],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You have burgers with Aku and discuss the ins and outs of friend etiquette."],
     [
       "%DONE%"
     ]

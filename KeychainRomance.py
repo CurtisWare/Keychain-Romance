@@ -660,6 +660,14 @@ def eventHandler(event, girl, location): #event[action][sentence][textCounter]
             break
         else:
             print("Incorrect script syntax!")
+            thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
+            thumby.display.drawText("Error.", 0, 0, 1)
+            thumby.display.drawText("Let Dev know!", 0, 7, 1)
+            thumby.display.update()
+            time.sleep(2)
+            while(1):
+                if(thumby.actionPressed()):
+                    break
             break
                 
         thumby.display.update()

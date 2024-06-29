@@ -446,14 +446,36 @@
   ],
   "NadiaBar2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You and Nadia go to the bar together."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["I started taking up running recently..."],
+    ["I've heard different things about running shoes... some people say you need them... some people say you don't."],
+    ["What do you think?"],
+    ["Do you need a pair of running shoes?"],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["%DATETEXT%"],
+    ["Hmm! You think so?"],
+    ["I think that's probably right."],
+    ["...and plus, I'll take any excuse I can get to get a new pair of shoes, am I right? Haha!"],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["So, you just run in your normal shoes?"],
+    ["Don't they wear out? Or hurt your feet?"],
+    ["Hmm! Maybe I should give it a try."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You spend time at the bar with Nadia talking about shoes."],
     [
       "%DONE%"
     ]
@@ -474,14 +496,38 @@
   ],
   "NadiaPark1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the park near your house with Nadia."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Sorry, it took me so long to get ready."],
+    ["It's riiiight at that temperature where it's hard to decide if you should wear a sweater or not and I couldn't decide."],
+    ["What do you think?"],
+    ["Would you rather be dressed too warmly or too cool?"],
+    ["%CHOICE%"],
+    ["Too Warm"],
+    ["Too Cool"],
+    [1],
+    ["%DATETEXT%"],
+    ["That's how I am too."],
+    ["I don't mind sweating a little..."],
+    ["But being too cold?"],
+    ["No thank you."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Haha, really?"],
+    ["We're opposites!"],
+    ["That's ok though..."],
+    ["I think people with different temperatures make good friends."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Nadia talk about the dressing for the weather."],
     [
       "%DONE%"
     ]
@@ -558,14 +604,38 @@
   ],
   "NadiaWrestling1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
-    [
-      "This is just test text!"
-    ],
-    [
-      "%LOCATIONGIRL%"
-    ],
+    ["You meet Nadia in front of the Wrestling venue."],
+    ["%DATETEXT%"],
+    ["Ah!! I'm so excited, UGH I love wrestling!! So much!!"],
+    ["%NARRATION%"],
+    ["Nadia is visibly pumped up."],
+    ["You both walk into the venue."],
+    ["%LOCATIONGIRL%"],
+    ["%DATETEXT%"],
+    ["OK, OK... I have to ask you the hard question."],
+    ["Are you more of a Heel or Face fan?"],
+    ["%CHOICE%"],
+    ["Face"],
+    ["Heel"],
+    ["What?"],
+    [1],
+    ["%DATETEXT%"],
+    ["Haha! Really?!"],
+    ["See, I love the Heels. I love a good villain!"],
+    [2],
+    ["%DATETEXT%"],
+    ["Yeah!! Me too!"],
+    ["There's no better excitement than seeing a bad guy come back at the end of a match with a sneaky trick and win the match!"],
+    [3],
+    ["%DATETEXT%"],
+    ["Ah, right. Sometimes I forget that not everyone knows those terms!"],
+    ["The Face is kinda like the \"Good Guy\" that a promotion will put up as someone to bring the audience in."],
+    ["The Heel is a villain that tries to win through trickery and backstabbing!"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Nadia spend time watching and learning about wrestling."],
     [
       "%DONE%"
     ]
@@ -729,10 +799,7 @@
       "%DATETEXT%"
     ],
     [
-      "This is just test text!"
-    ],
-    [
-      "DO BETTER!"
+      "Oh, thank you!"
     ],
     [
       "%DONE%"
