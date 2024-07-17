@@ -4,68 +4,48 @@
       "%NARRATION%"
     ],
     [
-      "You decide to go somewhere."
+      "You're in the mood for a drink and a snack."
     ],
-    [
-      "Since you're new to the area, the only place you can think to go is the nearby park."
-    ],
-    [
-      "It's a quiet, but pleasant place to be."
-    ],
-    [
-      "%LOCATION%"
-    ],
-    [
-      "%NARRATION%"
-    ],
-    [
-      "As you stand on a small bridge overlooking a stream, you see a woman do a small wave to grab your attention..."
-    ],
-    [
-      "\"Hi there!!\""
-    ],
+    ["The bar near your house would be perfect for such an occassion."],
+    ["%LOCATION%"],
+    ["%NARRATION%"],
+    ["Amidst the sounds of people talking to each other, you can clearly make out a conversation between a woman at the bar and the bartender."],
+    ["\"...no no, you have to expand your mind a little. Stealing is EXTREMELY ethical...\""],
     [
       "%CIRCLEMEET%"
     ],
-    [
-      "%CHOICE%"
-    ],
-    [
-      "First!"
-    ],
-    [
-      "Second!"
-    ],
-    [
-      1
-    ],
-    [
-      "%NARRATION%"
-    ],
-    [
-      "You chose one!"
-    ],
-    [
-      2
-    ],
-    [
-      "%NARRATION%"
-    ],
-    [
-      "You chose two!"
-    ],
-    [
-      "%MERGE%"
-    ],
-    [
-      "%DATETEXT%"
-    ],
-    [
-      "WOW G2G!"
-    ],
-    [
-      "%GIFT%"
-    ],
+    ["%NARRATION%"],
+    ["She looks in your direction."],
+    ["%DATETEXT%"],
+    ["I know this guy here gets it!"],
+    ["You work all day and make no money and then big stores have the GALL to charge you prices that no one can pay, right?"],
+    ["%CHOICE%"],
+    ["Right!"],
+    ["I dunno"],
+    [1],
+    ["%DATETEXT%"],
+    ["I knew you would get it!"],
+    ["I mean... who wouldn't!"],
+    ["It's patently obvious!"],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["oh COME ON."],
+    ["Take a look around, man!"],
+    ["Here, I'll explain it to you."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You spend some time talking with Grape about class struggle."],
+    ["%DATETEXT%"],
+    ["Well..."],
+    ["I think you've got a lot to learn..."],
+    ["But you got a good heart."],
+    ["I like where you're coming from."],
+    ["Tell you what, hit me up sometime and we'll hang out and I can show you how it really is out here!"],
+    ["%NARRATION%"],
+    ["You get Grape's contact information."],
+    ["It looks like you'll be expanding your class conciousness soon..."],
+    ["...whether you want to or not."],
     [
       "%DONE%"
     ]
@@ -286,10 +266,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART ONE!"
-    ],
-    [
-      "Grape is already waiting for you."
+      "You meet Grape at the GumchBurger"
     ],
     [
       "%LOCATIONGIRL%"
@@ -298,11 +275,33 @@
       "%DATETEXT%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "Ya know, one of my favorite things about coming here is taking home like 50 ketchup packets."
     ],
     [
-      "That was a really good date, thank you!"
+        "Ok... so... do me a favor real quick and stand in front of me while I shove a ton of these into my pockets..."
     ],
+    [
+      "%CHOICE%"  
+    ],
+    [
+      "You got it"  
+    ],
+    [
+      "...no...?"  
+    ],
+    [1],
+    ["%DATETEXT%"],
+    ["Hahaha, I knew you were alright. Ok, POSITIONS!"],
+    ["%NARRATION%"],
+    ["Grape fills her pockets with ketchup packets."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Aw, c'mon you big baby. It's not like they do have 10 bazillion of these."],
+    ["Take a stand against the machine once in a while, eh?"],
+    ["%NARRATION%"],
+    ["Grape stuffs her pockets full of ketchup packets while looking around nervously."],
+    ["%MERGE%"],
     [
       "%DONE%"
     ]
@@ -312,10 +311,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART TWO!"
-    ],
-    [
-      "Grape is already waiting for you."
+      "You meet Grape at the GumchBurger"
     ],
     [
       "%LOCATIONGIRL%"
@@ -324,11 +320,31 @@
       "%DATETEXT%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "Alright... hear me out here..."
     ],
-    [
-      "That was a really good date, thank you!"
-    ],
+    ["I know the burger is the \"Thing To Get\" here..."],
+    ["...but what else do you like to get?"],
+    ["%CHOICE%"],
+    ["Fish"],
+    ["Nuggets"],
+    ["Ice Cream"],
+    [1],
+    ["%DATETEXT%"],
+    ["The fish? The bougie choice..."],
+    ["One must wonder if you REALLY enjoy the craptastic grease mound that is Gumchburger... or if you long for something more fancy... hmm...."],
+    [2],
+    ["%DATETEXT%"],
+    ["NOW we're talkin'!"],
+    ["That's the true choice of the people! No human great or small can resist the beautiful simplicity of the ground meat nuggie."],
+    ["That's the kind of good taste I've come to expect from you."],
+    ["%ADD2%"],
+    [3],
+    ["%DATETEXT%"],
+    ["Ah, who amongst us does not enjoy a good Ice Cream treat from time to time."],
+    ["I respect that. Just don't eat too many!!!"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You spend time talking to Grape about the menu choices."],
     [
       "%DONE%"
     ]
@@ -361,14 +377,31 @@
   ],
   "GrapeBar1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You meet Grape at the subway station and ride there together."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%NARRATION%"],
+    ["Grape is going on a tipsy rant about orgazational structures in large corporations."],
+    ["%DATETEXT%"],
+    ["...and THAT's why no one can find a job AND companies can't find employees, you know what I mean?"],
+    ["I mean... who do YOU think a company relies on the most?"],
+    ["%CHOICE%"],
+    ["Managers"],
+    ["Employees"],
+    [1],
+    ["%DATETEXT%"],
+    ["Whaaaat!"],
+    ["You haven't listened to anything I've said, have you? Hahaha!"],
+    [2],
+    ["%DATETEXT%"],
+    ["RIGHT. The pressure AND the risk is all on the people who make the least amount of money ugh..."],
+    ["%ADD1%"],
+    ["%MERGE%"],
     [
       "%DONE%"
     ]

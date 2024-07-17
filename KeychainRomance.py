@@ -183,7 +183,7 @@ girlGrape = girl("Grape", None, None, None, 0, 0, 100, (whipCat, gumchBurger, ro
 girlMarlene = girl("Marlene", None, None, None, 0, 0, 100, (rockVenue, whipCat, gumchBurger), (rockAlbum, rockTicket, greasyChips), wildFlower)
 girlAllene = girl("Allene", None, None, None, 0, 0, 100, (localPark, girlHome, niceRestaurant), (toyBug, realBug, scifiNovel, icedCream), snowGlobe)
 girlAku = girl("Aku", None, None, None, 0, 0, 100, (bigMall, gumchBurger, rockVenue, wrestlingRing), (rockTicket, wrestlingTicket, combatKnife, realBug, sourPoopies, greasyChips), fakeSkull)
-girlRisol = girl("Risol", None, None, None, 0, 0, 100, (niceRestaurant, girlHome, bigMall, whipCat), (prettyFlowers, scifiNovel, fancyChocolate, rnbAlbum, icedCream), kitchenKnife)
+girlRisol = girl("Risol", None, None, None, 0, 0, 100, (niceRestaurant, girlHome, whipCat), (prettyFlowers, scifiNovel, fancyChocolate, rnbAlbum, icedCream), kitchenKnife)
 girlGamer = girl("Gamer", None, None, None, 0, 0, 100, (girlHome, gumchBurger, bigMall), (greasyChips, toyThumby, sourPoopies, scifiNovel), morbidKnights2)
 
     
@@ -1276,7 +1276,7 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlAku.affinity == 0 and random.randrange(1, 8) == 7 and player.totalDates >= 4):
+            elif(girlAku.affinity == 0 and random.randrange(1, 8) == 7 and player.totalDates >= 8):
                 chosenGirl = girlAku
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)

@@ -482,14 +482,35 @@
   ],
   "NadiaBar3": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the bar with Nadia."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%NARRATION%"],
+    ["The two of you decide to order some food while you're there."],
+    ["%DATETEXT%"],
+    ["Ok, hear me out here."],
+    ["I think that maybe, the fried pickle is the finest of the bar foods."],
+    ["Have you ever had one?"],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["%DATETEXT%"],
+    ["Yeah! I knew you had good taste. Of course you've had them before!"],
+    ["%ADD1"],
+    [2],
+    ["%DATETEXT%"],
+    ["Oh! Well then..."],
+    ["Allow me to be the one to introduce you to them!"],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You discuss the best bar snacks with Nadia."],
     [
       "%DONE%"
     ]
@@ -534,42 +555,116 @@
   ],
   "NadiaPark2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the park with Nadia."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%NARRATION%"],
+    ["You walk along in silence for a while."],
+    ["It isn't awkward, but maybe you should say something."],
+    ["%CHOICE%"],
+    ["Talk"],
+    ["Stay Quiet"],
+    [1],
+    ["%NARRATION%"],
+    ["You start up a conversation."],
+    ["%DATETEXT%"],
+    ["Huh?"],
+    ["Oh! Sorry, I was lost in thought there for a second! What's up?"],
+    [2],
+    ["%NARRATION%"],
+    ["You don't say anything and let your walk continue in peace."],
+    ["You're not sure what Nadia is thinking about... but she smiles."],
+    ["%DATETEXT%"],
+    ["   "],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You walk around for a while."],
     [
       "%DONE%"
     ]
   ],
   "NadiaPark3": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the park with Nadia"
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Oh! Is... is that a dog??"],
+    ["%NARRATION%"],
+    ["A dog is walking around on its own, without an obvious owner."],
+    ["%DATETEXT%"],
+    ["Should we..."],
+    ["Should we get it to come over here??"],
+    ["%CHOICE%"],
+    ["Call it"],
+    ["Better not"],
+    [1],
+    ["%NARRATION%"],
+    ["You kneel down and pat your knees."],
+    ["The dog recognizes that you're calling it and happily walks over to you."],
+    ["%DATETEXT%"],
+    ["Ah! Haha!"],
+    ["Look at that!"],
+    ["What a good dog! Who's a good dog!? You are!"],
+    ["%NARRATION%"],
+    ["You and Nadia play with the dog for a little while until its owner shows up and thanks you for keeping a watch over it."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Ah, maybe you're right."],
+    ["It might be mean..."],
+    ["I guess its impossible to know, right?"],
+    ["%NARRATION%"],
+    ["You leave the dog to its own devices."],
+    ["%MERGE%"],
     [
       "%DONE%"
     ]
   ],
   "NadiaVenue1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the concert venue with Nadia."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%NARRATION%"],
+    ["The music is loud enough that its hard to hear Nadia shouting at you even though she's right beside you."],
+    ["%DATETEXT%"],
+    ["HEY, SO THIS BAND KINDA REMINDS ME OF A BAND I HEARD ON THE RADIO..."],
+    ["WHAT... "],
+    ["WHAT DO U THINK ABOUT THE KIND OF MUSIC THEY PLAY ON THE RADIO, IN GENERAL?"],
+    ["%CHOICE%"],
+    ["ITS GOOD"],
+    ["ITS BAD"],
+    ["RADIO?"],
+    [1],
+    ["%NARRATION%"],
+    ["Nadia can't hear you over the music... but you have a feeling she would agree."],
+    ["ADD1"],
+    [2],
+    ["%NARRATION%"],
+    ["Nadia can't hear you over the music... but you have a feeling she might not agree..."],
+    [3],
+    ["%NARRATION%"],
+    ["You're not sure what Nadia is talking about... who listens to the radio now?"],
+    ["You're pretty sure she would think your answer was funny though."],
+    ["ADD1"],
+    ["%MERGE%"],
     [
       "%DONE%"
     ]
@@ -624,6 +719,7 @@
     ["%DATETEXT%"],
     ["Haha! Really?!"],
     ["See, I love the Heels. I love a good villain!"],
+    ["%ADD1%"],
     [2],
     ["%DATETEXT%"],
     ["Yeah!! Me too!"],
@@ -633,6 +729,7 @@
     ["Ah, right. Sometimes I forget that not everyone knows those terms!"],
     ["The Face is kinda like the \"Good Guy\" that a promotion will put up as someone to bring the audience in."],
     ["The Heel is a villain that tries to win through trickery and backstabbing!"],
+    ["%ADD1%"],
     ["%MERGE%"],
     ["%NARRATION%"],
     ["You and Nadia spend time watching and learning about wrestling."],

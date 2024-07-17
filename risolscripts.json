@@ -4,68 +4,112 @@
       "%NARRATION%"
     ],
     [
-      "You decide to go somewhere."
+      "You go to the mall."
     ],
     [
-      "Since you're new to the area, the only place you can think to go is the nearby park."
+      "You remember that Aku told you about her friend who works in the mall..."
     ],
+    ["No sooner than the thought crosses your mind..."],
     [
-      "It's a quiet, but pleasant place to be."
-    ],
-    [
-      "%LOCATION%"
-    ],
-    [
-      "%NARRATION%"
-    ],
-    [
-      "As you stand on a small bridge overlooking a stream, you see a woman do a small wave to grab your attention..."
-    ],
-    [
-      "\"Hi there!!\""
+      "\"Excuse me...\""
     ],
     [
       "%CIRCLEMEET%"
     ],
     [
+      "%DATETEXT%"
+    ],
+    [
+      "You're Aku's friend aren't you."
+    ],
+    [
+      "Yeah, she told me about you as well."
+    ],
+    [
+      "My name is Risol. Are you enjoying your time at the mall?"
+    ],
+    [
       "%CHOICE%"
     ],
     [
-      "First!"
+      "Yes..."
     ],
     [
-      "Second!"
+      "Eh..."
     ],
     [
       1
     ],
     [
-      "%NARRATION%"
+      "%DATETEXT%"
     ],
     [
-      "You chose one!"
+      "Ah, that's good."
     ],
+    ["Sigh..."],
+    ["I just hope more people feel the same way you do..."],
     [
       2
-    ],
-    [
-      "%NARRATION%"
-    ],
-    [
-      "You chose two!"
-    ],
-    [
-      "%MERGE%"
     ],
     [
       "%DATETEXT%"
     ],
     [
-      "WOW G2G!"
+      "Is that so?"
+    ],
+    ["Hmm... maybe we have overlooked something..."],
+    [
+      "%MERGE%"
     ],
     [
-      "%GIFT%"
+      "%NARRATION%"
     ],
+    [
+      "Risol looks lost in thought for a moment."
+    ],
+    ["%DATETEXT%"],
+    ["Oh. Sorry."],
+    ["Look, I'll be honest."],
+    ["I'm the VP of this Mall. I make a lot of decisions about how to run it, but recently..."],
+    ["Eh, suffice to say things haven't been going so hot."],
+    ["I just... sometimes I don't think I have the right perspective on it. Like how do normal people decide what to do with their day and whether or not to spend money here..."],
+    ["%NARRATION%"],
+    ["Risol thinks for a moment... then looks directly at you."],
+    ["%DATETEXT%"],
+    ["Hey..."],
+    ["How would you describe yourself?"],
+    ["Above or below average?"],
+    ["%CHOICE%"],
+    ["Above"],
+    ["Average"],
+    ["Below"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah... well..."],
+    ["Hmm... that doesn't really help me then, you see..."],
+    ["But, ok."],
+    ["Just PRETEND to be average. For me."],
+    [2],
+    ["%DATETEXT%"],
+    ["Ah, perfect!"],
+    ["Your perspective is just the kind I need!"],
+    ["%ADD2%"],
+    [3],
+    ["%DATETEXT%"],
+    ["Hahaha, what an answer."],
+    ["You know what, I appreciate the humility."],
+    ["%ADD1"],
+    ["%MERGE%"],
+    ["Tell you what, how about you can give me the inside scoop on what an average person like you likes..."],
+    ["...and in return, I'll pay for whatever we go out and do."],
+    ["Kinda like some market research, but with a personal twist."],
+    ["%NARRATION%"],
+    ["Risol winks at you."],
+    ["%DATETEXT%"],
+    ["Alright partner, give me a call sometime and we'll get down to making some business happen."],
+    ["I have to be in a meeting soon, but it was good to meet you. I can see Aku has decent taste in friends, haha."],
+    ["%NARRATION%"],
+    ["Risol turns and waves at you as she walks away. What... exactly have you gotten yourself into here?"],
     [
       "%DONE%"
     ]
@@ -115,28 +159,16 @@
       "%TEXTING%"
     ],
     [
-      "This is call three!"
+      "Hey, sorry for the late response."
     ],
     [
-      "LMAO yeah me too"
-    ],
-    [
-      "myeh"
-    ],
-    [
-      "Anyway, yeah! I'm free today!"
-    ],
-    [
-      "Here, lemme call u rq"
+      "It's just been meeting after meeting today."
     ],
     [
       "%PHONECALL%"
     ],
     [
-      "So, where do you wanna go?"
-    ],
-    [
-      "I'm kinda in the mood for borgar..."
+      "You wanna go somewhere and help me get my mind off it?"
     ],
     [
       "%DONE%"
@@ -224,8 +256,9 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "Haha, oh man... Wrestling..."
     ],
+    ["Alright, let's do it. Nothing more salt-of-the-earth than that."],
     [
       "%DONE%"
     ]
@@ -235,8 +268,11 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "Ah, yes! I would love that."
     ],
+    ["I have an \"in\" at the Flyheight Restaurant downtown."],
+    ["I'll get us a table for 730."],
+    ["Do you want to meet me there or should I pick you up?"],
     [
       "%DONE%"
     ]
@@ -246,8 +282,10 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "A night in..."
     ],
+    ["Yeah, I could go for that."],
+    ["Come on over, I'll buzz you in when you get to the first floor of my apartment."],
     [
       "%DONE%"
     ]
@@ -257,8 +295,10 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "You wanna go to my mall?"
     ],
+    ["Mmm... ok! It might be nice to enjoy it as a guest, instead of a VP."],
+    ["Get ready and I'll be over to pick you up in an hour."],
     [
       "%DONE%"
     ]
@@ -268,10 +308,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART ONE!"
-    ],
-    [
-      "Risol is already waiting for you."
+      "You meet Risol at Gumchburger."
     ],
     [
       "%LOCATIONGIRL%"
@@ -280,11 +317,27 @@
       "%DATETEXT%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "I swear, before I started hanging out with you..."
     ],
-    [
-      "That was a really good date, thank you!"
-    ],
+    ["I probably hadn't been to a Gumchburger in years."],
+    ["Do you think its still as good as it used to be?"],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah, good to know. I feel like things have a tendency to degrade over time..."],
+    ["You know... in general."],
+    ["Good to know something is able to stand the test of time."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Ah, ain't that just the way."],
+    ["I guess its to be expected."],
+    ["Nothing escapes the effects of time, eh?"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Risol talk about time and getting older."],
     [
       "%DONE%"
     ]
@@ -343,14 +396,40 @@
   ],
   "RisolBar1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the bar with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%NARRATION%"],
+    ["You and Risol drink about the same amount."],
+    ["You're starting to feel a little drunk..."],
+    ["%DATETEXT%"],
+    ["Hey..."],
+    ["Please don't take this the wrong way."],
+    ["I think... maybe you should get some water next or slow down a little."],
+    ["Is that ok with you?"],
+    ["%CHOICE%"],
+    ["Yeah..."],
+    ["I'm okay"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah, thank you."],
+    ["I appreciate that you know yourself."],
+    ["Or..."],
+    ["At very least you trust me to know you well enough, haha."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Alright there, cowboy."],
+    ["Trust me, while I am a master of not knowing whats good for me and I respect that about you."],
+    ["It might be in your best interest to trust me on this one."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You talk with Risol for a while about knowing your limits."],
     [
       "%DONE%"
     ]
