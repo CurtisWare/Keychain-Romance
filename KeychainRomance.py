@@ -158,7 +158,7 @@ currentInventory = {icedCream : 0, greasyChips : 0, sourPoopies : 0, fancyChocol
 shopList = [icedCream, greasyChips, sourPoopies, fancyChocolate, kitchenKnife, combatKnife, tankBook, scifiNovel, rockAlbum, rnbAlbum, toyGun, toyBug, realBug, snowGlobe, fakeSkull, toyThumby, prettyFlowers, wildFlower, rockTicket, morbidKnights2, wrestlingTicket]
 
 class girl:
-    def __init__(self, name, sprite, fullSprite, maskSprite, affinity, totalDates, phoneChance, likeLocations, likeGifts, specialGift):
+    def __init__(self, name, sprite, fullSprite, maskSprite, affinity, totalDates, phoneChance, likeLocations, likeGifts, specialGift, relationshipLevel):
         self.name = name
         self.sprite = sprite
         self.fullSprite = fullSprite
@@ -178,13 +178,13 @@ class girl:
     def maskSprite(self):
         return self.maskSprite
 
-girlNadia = girl("Nadia", None, None, None, 0, 0, 100, (wrestlingRing, girlHome, gumchBurger, niceRestaurant), (icedCream, greasyChips, fancyChocolate, wildFlower, prettyFlowers), wrestlingTicket)
-girlGrape = girl("Grape", None, None, None, 0, 0, 100, (whipCat, gumchBurger, rockVenue), (toyGun, combatKnife, rockAlbum, fakeSkull, sourPoopies), tankBook)
-girlMarlene = girl("Marlene", None, None, None, 0, 0, 100, (rockVenue, whipCat, gumchBurger), (rockAlbum, rockTicket, greasyChips), wildFlower)
-girlAllene = girl("Allene", None, None, None, 0, 0, 100, (localPark, girlHome, niceRestaurant), (toyBug, realBug, scifiNovel, icedCream), snowGlobe)
-girlAku = girl("Aku", None, None, None, 0, 0, 100, (bigMall, gumchBurger, rockVenue, wrestlingRing), (rockTicket, wrestlingTicket, combatKnife, realBug, sourPoopies, greasyChips), fakeSkull)
-girlRisol = girl("Risol", None, None, None, 0, 0, 100, (niceRestaurant, girlHome, whipCat), (prettyFlowers, scifiNovel, fancyChocolate, rnbAlbum, icedCream), kitchenKnife)
-girlGamer = girl("Gamer", None, None, None, 0, 0, 100, (girlHome, gumchBurger, bigMall), (greasyChips, toyThumby, sourPoopies, scifiNovel), morbidKnights2)
+girlNadia = girl("Nadia", None, None, None, 0, 0, 100, (wrestlingRing, girlHome, gumchBurger, niceRestaurant), (icedCream, greasyChips, fancyChocolate, wildFlower, prettyFlowers), wrestlingTicket, 0)
+girlGrape = girl("Grape", None, None, None, 0, 0, 100, (whipCat, gumchBurger, rockVenue), (toyGun, combatKnife, rockAlbum, fakeSkull, sourPoopies), tankBook, 0)
+girlMarlene = girl("Marlene", None, None, None, 0, 0, 100, (rockVenue, whipCat, gumchBurger), (rockAlbum, rockTicket, greasyChips), wildFlower, 0)
+girlAllene = girl("Allene", None, None, None, 0, 0, 100, (localPark, girlHome, niceRestaurant), (toyBug, realBug, scifiNovel, icedCream), snowGlobe, 0)
+girlAku = girl("Aku", None, None, None, 0, 0, 100, (bigMall, gumchBurger, rockVenue, wrestlingRing), (rockTicket, wrestlingTicket, combatKnife, realBug, sourPoopies, greasyChips), fakeSkull, 0)
+girlRisol = girl("Risol", None, None, None, 0, 0, 100, (niceRestaurant, girlHome, whipCat), (prettyFlowers, scifiNovel, fancyChocolate, rnbAlbum, icedCream), kitchenKnife, 0)
+girlGamer = girl("Gamer", None, None, None, 0, 0, 100, (girlHome, gumchBurger, bigMall), (greasyChips, toyThumby, sourPoopies, scifiNovel), morbidKnights2, 0)
 
     
 
@@ -618,6 +618,7 @@ def eventHandler(event, girl, location): #event[action][sentence][textCounter]
         elif(event[action][sentence] == "%CIRCLEMEET%"):
             action += 1
             introductionAnimation(girl)
+            thumby.display.setFont("/lib/font3x5.bin", 3, 5, 1)
         elif(event[action][sentence] == "%CHOICE%"):
             action += 1
             listOfChoices = []
@@ -693,6 +694,13 @@ def displayStats(girl):
         if i in sys.modules:
             del sys.modules[i]
             print(f"Successful {i} Deletion")
+
+def getAverageGirlAffinity():
+    affinityCollector = 0
+    for gal in callList:
+        affinityCollector += gal.affinity
+    affinityCollector = affinityCollector/len(callList)
+    return affinityCollector
 
 def screen_wipe():
     wipeHeight = 0
@@ -1224,7 +1232,7 @@ while(1):
     #MEET OPTION
     while(gamestate == 4):
         
-        diceRoll = (time.ticks_ms() % 100)
+        # diceRoll = (time.ticks_ms() % 100)
         
 
 #--------------------------------------------------------------------------------------------------------------------
@@ -1236,15 +1244,17 @@ while(1):
         
         if(returnToMenu is False):
             
-            #TEST SITUATION
-            chosenGirl = girlAku
-            scriptName = f"{chosenGirl.name}Meeting"
-            eventString = getDateScript(scriptName, chosenGirl.name)
-            eventHandler(eventString, chosenGirl, bigMall)
-            returnToMenu = True
-            gamestate = 3
-            break
-
+            # TEST SITUATION
+            # chosenGirl = girlAllene
+            # scriptName = f"{chosenGirl.name}Meeting"
+            # eventString = getDateScript(scriptName, chosenGirl.name)
+            # eventHandler(eventString, chosenGirl, bigMall)
+            # returnToMenu = True
+            # gamestate = 3
+            # break
+            
+            
+            
             if(girlNadia.affinity == 0):
                 chosenGirl = girlNadia
                 scriptName = f"{chosenGirl.name}Meeting"
@@ -1256,7 +1266,7 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlGrape.affinity == 0):
+            elif(girlGrape.affinity == 0 and player.totalDates >= 1):
                 chosenGirl = girlGrape
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
@@ -1266,17 +1276,7 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlAllene.affinity == 0 and player.totalDates >= 4):
-                chosenGirl = girlAllene
-                scriptName = f"{chosenGirl.name}Meeting"
-                eventString = getDateScript(scriptName, chosenGirl.name)
-                eventHandler(eventString, chosenGirl, localPark)
-                callList.append(girlAllene)
-                girlAllene.affinity += 1
-                saveGame()
-                returnToMenu = True
-                gamestate = 3
-            elif(girlAku.affinity == 0 and random.randrange(1, 8) == 7 and player.totalDates >= 8):
+            elif(girlAku.affinity == 0 and random.randrange(1, 8) == 7 and len(callList) >= 3):
                 chosenGirl = girlAku
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
@@ -1290,13 +1290,13 @@ while(1):
                 chosenGirl = girlRisol
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
-                eventHandler(eventString, chosenGirl, niceRestaurant)
+                eventHandler(eventString, chosenGirl, bigMall)
                 callList.append(girlRisol)
                 girlRisol.affinity += 1
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlMarlene.affinity == 0 and currentInventory[rockTicket] >= 1):
+            elif(girlMarlene.affinity == 0 and currentInventory[rockTicket] >= 1 and girlGrape.relationshipLevel >= 1):
                 currentInventory[rockTicket] -= 1
                 chosenGirl = girlMarlene
                 scriptName = f"{chosenGirl.name}Meeting"
@@ -1307,7 +1307,7 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
-            elif(girlGamer.affinity == 0 and currentInventory[morbidKnights2] >= 1 and player.totalDates >= 30):
+            elif(girlGamer.affinity == 0 and player.totalDates >= 15 and random.randrange(1, 2) == 2):
                 chosenGirl = girlGamer
                 scriptName = f"{chosenGirl.name}Meeting"
                 eventString = getDateScript(scriptName, chosenGirl.name)
@@ -1316,6 +1316,18 @@ while(1):
                 saveGame()
                 returnToMenu = True
                 gamestate = 3
+            elif(girlAllene.affinity == 0):
+                averageGirlAffinity = getAverageGirlAffinity()
+                if averageGirlAffinity >= 10:
+                    chosenGirl = girlAllene
+                    scriptName = f"{chosenGirl.name}Meeting"
+                    eventString = getDateScript(scriptName, chosenGirl.name)
+                    eventHandler(eventString, chosenGirl, girlHome)
+                    callList.append(girlAllene)
+                    girlAllene.affinity += 1
+                    saveGame()
+                    returnToMenu = True
+                    gamestate = 3
             else:
                 chosenGirl = None
                 scriptName = f"{chosenGirl.name}Meeting"
@@ -1332,7 +1344,7 @@ while(1):
         
         gc.collect()
 
-        diceRoll = (time.ticks_ms() % 100)
+        # diceRoll = (time.ticks_ms() % 100)
         if(initiateEvent):
             initiateEvent = False
             currentCall = 0

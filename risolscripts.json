@@ -70,7 +70,7 @@
     ["%DATETEXT%"],
     ["Oh. Sorry."],
     ["Look, I'll be honest."],
-    ["I'm the VP of this Mall. I make a lot of decisions about how to run it, but recently..."],
+    ["I'm the COO of this Mall. I make a lot of decisions about how to run it, but recently..."],
     ["Eh, suffice to say things haven't been going so hot."],
     ["I just... sometimes I don't think I have the right perspective on it. Like how do normal people decide what to do with their day and whether or not to spend money here..."],
     ["%NARRATION%"],
@@ -100,6 +100,7 @@
     ["You know what, I appreciate the humility."],
     ["%ADD1"],
     ["%MERGE%"],
+    ["%DATETEXT%"],
     ["Tell you what, how about you can give me the inside scoop on what an average person like you likes..."],
     ["...and in return, I'll pay for whatever we go out and do."],
     ["Kinda like some market research, but with a personal twist."],
@@ -347,10 +348,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART TWO!"
-    ],
-    [
-      "Risol is already waiting for you."
+      "You get some burgers with Risol."
     ],
     [
       "%LOCATIONGIRL%"
@@ -359,11 +357,28 @@
       "%DATETEXT%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "Do you... do you like onions?"
     ],
-    [
-      "That was a really good date, thank you!"
-    ],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah, fantastic."],
+    ["%NARRATION%"],
+    ["Risol pulls the onions off her burger."],
+    ["She puts them on your tray."],
+    ["%DATETEXT%"],
+    ["These are for you. Merry Christmas"],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["You neither, huh?"],
+    ["I forgot to ask them not to put any on my burger..."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Risol talk about burger toppings for a while."],
     [
       "%DONE%"
     ]
@@ -373,23 +388,50 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART THREE!"
-    ],
-    [
-      "Risol is already waiting for you."
+      "You go to Gumchburger with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "Risol is mostly moving her food around on her tray instead of actually eating it."
     ],
-    [
-      "That was a really good date, thank you!"
-    ],
+    ["%DATETEXT%"],
+    ["Hey..."],
+    ["How old do you think is too old to start a new career..."],
+    ["%CHOICE%"],
+    ["30"],
+    ["50"],
+    ["Never"],
+    [1],
+    ["%DATETEXT%"],
+    ["Oh man... that's harsh..."],
+    ["But... yeah I can't help but feel that way pretty often."],
+    ["%NARRATION%"],
+    ["Risol lets out a long sigh."],
+    [2],
+    ["%DATETEXT%"],
+    ["Well... That still gives me some time..."],
+    ["I mean..."],
+    ["If I wanted to... not that I do want to change careers."],
+    ["%NARRATION%"],
+    ["Risol looks lost in thought."],
+    ["%ADD1%"],
+    [3],
+    ["%DATETEXT%"],
+    ["Pff..."],
+    ["Don't you think that's a little naive?"],
+    ["..."],
+    ["I'd like to think so too, though."],
+    ["..."],
+    ["I appreciate your outlook on that."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Risol have a conversation about career paths."],
     [
       "%DONE%"
     ]
@@ -436,14 +478,35 @@
   ],
   "RisolBar2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the bar with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["So, I was working today and my coworker brought her kid to the office and..."],
+    ["Oh, actually how do you feel about children?"],
+    ["%CHOICE%"],
+    ["Like"],
+    ["Don't like"],
+    [1],
+    ["%DATETEXT%"],
+    ["You're better than I am, then."],
+    ["You won't catch me having kids any time soon, that's for sure."],
+    ["Too loud... they take up too much time."],
+    ["No thanks."],
+    [2],
+    ["%DATETEXT%"],
+    ["Yeah, same here."],
+    ["It's not their fault but..."],
+    ["I think I just don't have it in me to reserve space in my brain for dealing with them, right?"],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You talk to Risol about children for a while."],
     [
       "%DONE%"
     ]
@@ -464,14 +527,31 @@
   ],
   "RisolPark1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
-    [
-      "This is just test text!"
-    ],
+    ["You go to the park with Risol."],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Ah, I really should come to places like this more often."],
+    ["I really don't get away from work often enough to enjoy nature."],
+    ["When you have the day off, do you like to laze around or do something active?"],
+    ["%CHOICE%"],
+    ["Be Lazy"],
+    ["Be Active"],
+    [1],
+    ["%DATETEXT%"],
+    ["Haha, I want to do that so bad."],
+    ["God knows I probably SHOULD..."],
+    ["But I think I'm cursed to just do work whether I'm off or not."],
+    [2],
+    ["Ah, me too!"],
+    ["I wish it weren't so, but its so hard to relax knowing there are things to be done, right?"],
+    ["Sometimes I feel like I'm at work even on vacation."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You walk through the park with Risol and discuss your freetime."],
     [
       "%DONE%"
     ]
@@ -590,14 +670,37 @@
   ],
   "RisolRestaurant1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go with Risol to a nice restaurant."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Go ahead and get whatever you like!"],
+    ["%NARRATION%"],
+    ["The meal is fantastic. The ambiance is incredible."],
+    ["The waiter brings the check to the table... you get the feeling Risol is going to pay."],
+    ["Should you take the check and pay it?"],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["%NARRATION%"],
+    ["Risol raises an eyebrow."],
+    ["%DATETEXT%"],
+    ["Haha, you sure about that?"],
+    ["This place ain't exactly cheap."],
+    ["But, hey sure, if you insist. Thank you."],
+    [2],
+    ["%NARRATION%"],
+    ["Risol happily takes the check and pays it."],
+    ["She seems pleased with herself and you that she was able to take you out."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["Risol drops you off at your house after dinner and drives home."],
     [
       "%DONE%"
     ]
@@ -632,16 +735,47 @@
   ],
   "RisolHome1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to Risol's apartment."
     ],
+    ["%DATETEXT%"],
+    ["Hey there, come on in."],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Can I get you something to drink?"],
+    ["%CHOICE%"],
+    ["Water"],
+    ["Soda"],
+    ["Wine"],
+    [1],
+    ["%NARRATION%"],
+    ["Risol smiles and lets out a small laugh."],
+    ["%DATETEXT%"],
+    ["Keeping it healthy and safe, huh?"],
+    ["Maybe I should do the same..."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Ah, hmm."],
+    ["I think there might be some Diet Fizzler in the fridge."],
+    ["I don't really drink a lot of soda..."],
+    ["It's kinda like liquid candy, right?"],
+    [3],
+    ["%NARRATION%"],
+    ["Risol smiles"],
+    ["%DATETEXT%"],
+    ["Hey, now you're speaking my language. Let me see what I have."],
+    ["I think I've got some good stuff around here. You're gonna like it."],
+    ["%ADD2%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Risol enjoy a drink on her couch."],
     [
-      "%DONE%"
+        "%DONE%"
     ]
   ],
   "RisolHome2": [
@@ -719,10 +853,10 @@
       "%DATETEXT%"
     ],
     [
-      "This is just test text!"
+      "Ah, thanks."
     ],
     [
-      "%LOCATIONGIRL%"
+      "I'm sure I'll find somewhere to put this."
     ],
     [
       "%DONE%"
@@ -733,11 +867,9 @@
       "%DATETEXT%"
     ],
     [
-      "This is just test text!"
+      "Oh!"
     ],
-    [
-      "%LOCATIONGIRL%"
-    ],
+    ["That's very kind of you, thank you. I love it."],
     [
       "%DONE%"
     ]
@@ -747,11 +879,11 @@
       "%DATETEXT%"
     ],
     [
-      "This is just test text!"
+      "Oh my goodness!"
     ],
-    [
-      "%LOCATIONGIRL%"
-    ],
+    ["A nice chef's knife? I... I don't know what to say, that's so thoughtful!"],
+    ["I've been wanting to buy one for myself for a while, but can just never bring myself to buy it."],
+    ["I really appreciate this, thank you very much."],
     [
       "%DONE%"
     ]

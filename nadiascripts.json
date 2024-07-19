@@ -671,14 +671,42 @@
   ],
   "NadiaVenue2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You see a show with Nadia."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Ah, playing an instrument seems so cool."],
+    ["I wish I could do it."],
+    ["Do you play anything?"],
+    ["%CHOICE%"],
+    ["No"],
+    ["Guitar"],
+    ["Piano"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah, you must know how I feel then..."],
+    ["Maybe we should learn one!"],
+    [2],
+    ["%DATETEXT%"],
+    ["Oh really! I didn't know!"],
+    ["That's really cool!"],
+    ["I would love to see you play some time!"],
+    ["%ADD1%"],
+    [3],
+    ["%DATETEXT%"],
+    ["Oh wow!"],
+    ["That's so cool!"],
+    ["That's like... the most true instrument."],
+    ["I'd really like to see you play it some time!"],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You discuss playing instruments with Nadia."],
     [
       "%DONE%"
     ]

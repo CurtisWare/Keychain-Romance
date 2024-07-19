@@ -354,10 +354,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART THREE!"
-    ],
-    [
-      "Grape is already waiting for you."
+      "You went to get some burgers with Grape."
     ],
     [
       "%LOCATIONGIRL%"
@@ -366,11 +363,30 @@
       "%DATETEXT%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "Ya know..."
     ],
     [
-      "That was a really good date, thank you!"
+      "I bet I could rob this Gumchburger pretty easily."
     ],
+    ["What do you think?"],
+    ["How about we put on our ski masks and make some quick cash?"],
+    ["%CHOICE%"],
+    ["Lets do it"],
+    ["What no"],
+    [1],
+    ["%DATETEXT%"],
+    ["Hahaha, hell yeah!"],
+    ["We would do such a good job too."],
+    ["I knew you'd be on board."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["What?"],
+    ["I wasn't actually gonna do it."],
+    ["...probably."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Grape discuss committing crimes."],
     [
       "%DONE%"
     ]
@@ -478,14 +494,43 @@
   ],
   "GrapeVenue1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You and Grape go see a show."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["OH, I had no idea that Police-Dissection was opening tonight!"],
+    ["A lot of people say they kick ass now, but their first album is just not as good."],
+    ["What do you think?"],
+    ["Is their first album kinda basic?"],
+    ["%CHOICE%"],
+    ["Yeah"],
+    ["No"],
+    ["Dunno..."],
+    [1],
+    ["%DATETEXT%"],
+    ["Yeah, that's kinda the consensus, I think."],
+    ["I mean... I don't care what anyone says, though."],
+    ["I still think its worth a listen."],
+    [2],
+    ["%DATETEXT%"],
+    ["Right?!"],
+    ["People just fail to see its depth!"],
+    ["I think it's definitely due for a cultural re-evaluation."],
+    ["%ADD2%"],
+    [3],
+    ["%DATETEXT%"],
+    ["Oh! Lucky you!"],
+    ["If you haven't heard it yet, that means you get to have the enviable experience of hearing it for the first time!"],
+    ["Check it out on MusicStreamer and text me to let me know what you think!"],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Grape talk about Police-Dissection's catalogue of albums."],
     [
       "%DONE%"
     ]
@@ -730,14 +775,44 @@
   ],
   "GrapeSpecialEvent1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
-    [
-      "This is just test text!"
-    ],
+    ["Grape takes you to a show."],
+    ["She seems really excited to see this band and see what you think abou them."],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Dude, you are gonna love this group, Primordial Dudes."],
+    ["They've really got it all: Riffs, Shreds and good politics, baby."],
+    ["%NARRATION%"],
+    ["The band, Primordial Dudes, starts playing."],
+    ["They're a classic punk band... you can see why Grape likes them so much."],
+    ["Interestingly, besides a drummer, guitarist, singer and bass player..."],
+    ["They also have a bassoon player."],
+    ["The combination of socially concious hardcore punk and bassoon works together surprisingly well."],
+    ["Seamlessly, even."],
+    ["%DATETEXT%"],
+    ["OK buddy, I hope you've been enjoying standing over here on the side..."],
+    ["cuz its ass kicking time!"],
+    ["%NARRATION%"],
+    ["Grape shoves you into the middle of the crowd."],
+    ["She joins you and starts pushing and shoving other moshers."],
+    ["%DATETEXT%"],
+    ["HAHA YEAAAH!"],
+    ["%NARRATION%"],
+    ["After spending a night smashing into strangers and Grape alike... you feel like you know her a little better."],
+    ["%DATETEXT%"],
+    ["Whew!"],
+    ["Hey..."],
+    ["I appreciate you coming out tonight."],
+    ["I've been having a good time hanging out with you."],
+    ["Next time YOU pick an artist and we'll go see them together, haha."],
+    ["%NARRATION%"],
+    ["As you and Grape leave, you see the band packing up."],
+    ["The bassoon player sees you looking at them and waves hi."],
+    ["Before she can talk to you though, a fan runs up to her and starts talking to her."],
+    ["Perhaps you can talk to her later..."],
     [
       "%DONE%"
     ]

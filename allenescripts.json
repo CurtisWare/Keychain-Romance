@@ -4,13 +4,10 @@
       "%NARRATION%"
     ],
     [
-      "You decide to go somewhere."
+      "You get ready to go out..."
     ],
     [
-      "Since you're new to the area, the only place you can think to go is the nearby park."
-    ],
-    [
-      "It's a quiet, but pleasant place to be."
+      "But you decide to stay inside tonight instead."
     ],
     [
       "%LOCATION%"
@@ -18,54 +15,75 @@
     [
       "%NARRATION%"
     ],
-    [
-      "As you stand on a small bridge overlooking a stream, you see a woman do a small wave to grab your attention..."
-    ],
-    [
-      "\"Hi there!!\""
-    ],
-    [
-      "%CIRCLEMEET%"
-    ],
-    [
-      "%CHOICE%"
-    ],
-    [
-      "First!"
-    ],
-    [
-      "Second!"
-    ],
-    [
-      1
-    ],
-    [
-      "%NARRATION%"
-    ],
-    [
-      "You chose one!"
-    ],
-    [
-      2
-    ],
-    [
-      "%NARRATION%"
-    ],
-    [
-      "You chose two!"
-    ],
-    [
-      "%MERGE%"
-    ],
-    [
-      "%DATETEXT%"
-    ],
-    [
-      "WOW G2G!"
-    ],
-    [
-      "%GIFT%"
-    ],
+    ["It's a cold night."],
+    ["It's snowing outside and very quiet."],
+    ["..."],
+    ["Very quiet, indeed."],
+    ["You walk to the window peering out from your living room and onto the street you live on."],
+    ["Through the snow, and past the icicles hanging from your window sill, you peer into the darkness."],
+    ["!!!"],
+    ["There is a woman standing in the street."],
+    ["!!!"],
+    ["She is looking at you."],
+    ["You look at each other for a minute."],
+    ["Maybe you know her from somewhere?"],
+    ["You cautiously step out your front door..."],
+    ["She steps up to meet you."],
+    ["%CIRCLEMEET%"],
+    ["%DATETEXT%"],
+    ["Hello there."],
+    ["You look a little surprised."],
+    ["I guess you can't be expected to see someone casually walking outdoors in this kind of weather late at night and not be a little startled."],
+    ["%NARRATION%"],
+    ["She speaks slowly and calmly."],
+    ["Not at all like someone who has been out in the cold for an extended period of time."],
+    ["%DATETEXT%"],
+    ["Sorry, I haven't introduced myself yet."],
+    ["My name is Allene."],
+    ["%NARRATION%"],
+    ["Allene seems a little suspicious to you."],
+    ["Should you introduce yourself?"],
+    ["...or question why she is out here?"],
+    ["%CHOICE%"],
+    ["Introduce"],
+    ["Question"],
+    [1],
+    ["%DATETEXT%"],
+    ["Haha..."],
+    ["I know."],
+    ["I know who you are."],
+    ["Sorry... I know thats weird."],
+    ["I haven't looked you up or been following you or anything."],
+    ["I just... hmm. I intrinsically know, you know?"],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Haha... that's entirely fair."],
+    ["I know that my presence is a strange one..."],
+    ["Hmm... its hard to really answer."],
+    ["You know how... sometimes you just wind up right where you're supposed to be?"],
+    ["That's my situation."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["Allene speaks mysteriously..."],
+    ["But you don't detect any malicious intent from her."],
+    ["%DATETEXT%"],
+    ["Ah, what am I doing?"],
+    ["I shouldn't be making you stand out here in the cold talking to me."],
+    ["Sometimes I forget your kind can't handle the cold."],
+    ["I wouldn't want you to die before your time."],
+    ["%NARRATION%"],
+    ["On second thought..."],
+    ["She does come off as a little intimidating..."],
+    ["%DATETEXT%"],
+    ["Tell you what."],
+    ["Call me sometime."],
+    ["We'll talk more at some place and some time more suitable."],
+    ["Just ring and I'll be there."],
+    ["%NARRATION%"],
+    ["Allene shakes your hand and walks off into the night."],
+    ["What a strange woman..."],
+    ["Almost... inhuman."],
     [
       "%DONE%"
     ]
@@ -118,31 +136,17 @@
   ],
   "AllenephoneCallpickUp3": [
     [
-      "%TEXTING%"
-    ],
-    [
-      "This is call three!"
-    ],
-    [
-      "LMAO yeah me too"
-    ],
-    [
-      "myeh"
-    ],
-    [
-      "Anyway, yeah! I'm free today!"
-    ],
-    [
-      "Here, lemme call u rq"
-    ],
-    [
       "%PHONECALL%"
     ],
     [
-      "So, where do you wanna go?"
+      "Ah! You called!"
+    ],
+    ["I appreciate you always wanting to talk to me."],
+    [
+      "I was just feeling kind of lonely, truthfully."
     ],
     [
-      "I'm kinda in the mood for borgar..."
+      "What would you like to do?"
     ],
     [
       "%DONE%"
@@ -170,8 +174,10 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "A bar? Aren't those usually loud?"
     ],
+    ["Ah, what am I saying, that sounds fantastic."],
+    ["I'll see you there."],
     [
       "%DONE%"
     ]
@@ -181,8 +187,9 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "Ah, the quiet of the park."
     ],
+    ["I would be thrilled to see you there."],
     [
       "%DONE%"
     ]

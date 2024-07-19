@@ -289,8 +289,9 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "WRASSLIN?"
     ],
+    ["Yeah, I'm down for a little mano a mano battle."],
     [
       "%DONE%"
     ]
@@ -300,7 +301,7 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "Whoa! Fancy fancy! Alright alright, I'm sure I have SOMETHING that's socially appropriate to wear..."
     ],
     [
       "%DONE%"
@@ -311,8 +312,9 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "A night at home? Just big chillin?"
     ],
+    ["You got it."],
     [
       "%DONE%"
     ]
@@ -382,7 +384,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART TWO!"
+      "You get some burgers with Aku!"
     ],
     [
       "Aku is already waiting for you."
@@ -391,11 +393,34 @@
       "%LOCATIONGIRL%"
     ],
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "Aku is excitedly eating and talking with her mouth full."
     ],
+    ["Crumbs are spraying out of her mouth across the table."],
+    ["%DATETEXT%"],
+    ["OK, so I've been thinking!"],
+    ["I'm gonna quit my job and start streaming and playing fighting games full time."],
+    ["I think I'm good enough."],
+    ["But... for a pro gamer... I wonder if its better to be entertaining or skilled at the game."],
+    ["%CHOICE%"],
+    ["Entertain"],
+    ["Skill"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah, you think so?"],
+    ["Yeah, you're probably right."],
+    ["Better to get that consistent streaming money than try to win big at tournaments."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["On one hand... I think maybe focusing on skill is not the way to make a sustainable job..."],
+    ["but on the other hand HELL YEAH, now you're thinking with your butt and I love it!"],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You have burgers with Aku and discuss careers."],
     [
       "That was a really good date, thank you!"
     ],
@@ -473,28 +498,72 @@
   ],
   "AkuPark1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the park with Aku."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Ah, its so nice out here!"],
+    ["Not too hot, not too cold."],
+    ["Speaking of which, do like it better if its too hot or too cold outside?"],
+    ["%CHOICE%"],
+    ["Too Hot"],
+    ["Too Cold"],
+    [1],
+    ["%DATETEXT%"],
+    ["You're a tough one, that's for sure."],
+    ["If I start sweating, its freakin over for me, ugh."],
+    [2],
+    ["%DATETEXT%"],
+    ["Ah yeah, me too."],
+    ["Its like..."],
+    ["If its cold, I'll just put more layers on."],
+    ["But you can only take so many layers off if its too hot before..."],
+    ["Well, you know, haha."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You walk with Aku and talk about the weather."],
     [
       "%DONE%"
     ]
   ],
   "AkuPark2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go the park with Aku."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Ok, I gotta ask you the hard question."],
+    ["A real personal, deep, intrusive question."],
+    ["Ok, so... tell me..."],
+    ["Shorts or jeans?"],
+    ["%CHOICE%"],
+    ["Shorts"],
+    ["Jeans"],
+    [1],
+    ["%DATETEXT%"],
+    ["HELL YEAH"],
+    ["That's what I'm talkin about right there."],
+    ["Do NOT be constricting my legs with clothing, no no absolutely not."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["What, you're crazy."],
+    ["How do your legs BREATHE?!"],
+    ["How do you LIVE?!"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You walk with Aku and discuss pants."],
     [
       "%DONE%"
     ]
