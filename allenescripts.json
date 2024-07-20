@@ -199,8 +199,11 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "A loud... crowded venue?"
     ],
+    ["..."],
+    ["Alright!"],
+    ["The most obvious cure for loneliness would be to be around other people, would it not?"],
     [
       "%DONE%"
     ]
@@ -210,8 +213,9 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "Oh! The marriage of theater and battle?"
     ],
+    ["I would be happy to accompany you to the exhibition."],
     [
       "%DONE%"
     ]
@@ -221,8 +225,9 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "Oh! A quiet dinner with you?"
     ],
+    ["I would be honored to go with you."],
     [
       "%DONE%"
     ]
@@ -232,8 +237,10 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "My home?"
     ],
+    ["I'm honored you would want to meet me where I already am."],
+    ["I'll be sure to make it suitable before you arrive."],
     [
       "%DONE%"
     ]
@@ -243,8 +250,10 @@
       "%PHONECALL%"
     ],
     [
-      "CHANGE THIS"
+      "Sure!"
     ],
+    ["I'd love that!"],
+    ["I'd like to see what kinds of trinkets and such are on sale over there right now."],
     [
       "%DONE%"
     ]
@@ -254,7 +263,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART ONE!"
+      "You get burgers with Allene."
     ],
     [
       "Allene is already waiting for you."
@@ -262,15 +271,37 @@
     [
       "%LOCATIONGIRL%"
     ],
-    [
-      "%DATETEXT%"
-    ],
-    [
-      "I'm about to smash... so many burgers, honestly."
-    ],
-    [
-      "That was a really good date, thank you!"
-    ],
+    ["%NARRATION%"],
+    ["You sit down with Allene."],
+    ["%DATETEXT%"],
+    ["I have a questions for you."],
+    ["Are you aware of clowns?"],
+    ["Some people are afraid of them."],
+    ["But other people think they are friendly and entertaining."],
+    ["Still others find them attractive."],
+    ["What do you think of clowns?"],
+    ["%CHOICE%"],
+    ["Afraid"],
+    ["Funny"],
+    ["Sexy"],
+    [1],
+    ["%DATETEXT%"],
+    ["You fear them?"],
+    ["My understanding is that many humans harbor a fear of things in masks or creatures that look eerily similar to them..."],
+    ["I suppose that makes sense."],
+    [2],
+    ["So, their modern purpose is not lost on you?"],
+    ["My understanding is that in ages past, some clowns performed both social and religious purposes."],
+    ["I wonder how they came to be the lovable jesters they are today."],
+    ["%ADD1%"],
+    [3],
+    ["R... really?"],
+    ["What qualities about clowns do people find so... arousing?"],
+    ["I suppose seeing being able to see the beauty in everything is a gift all its own."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Allene discuss the fine art of clowning."],
     [
       "%DONE%"
     ]
@@ -280,7 +311,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART TWO!"
+      "You get burgers with Allene."
     ],
     [
       "Allene is already waiting for you."
@@ -289,14 +320,31 @@
       "%LOCATIONGIRL%"
     ],
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "I'm about to smash... so many burgers, honestly."
+      "Allene is happily devouring her food."
     ],
-    [
-      "That was a really good date, thank you!"
-    ],
+    ["%DATETEXT%"],
+    ["This... this is so good."],
+    ["I have to imagine this food is incredibly healthy, what with how delicious it is."],
+    ["%CHOICE%"],
+    ["...yes"],
+    ["Actually"],
+    [1],
+    ["%DATETEXT%"],
+    ["Of course!"],
+    ["I gotta say, I'm feeling incredibly energetic thanks to these burgers..."],
+    ["I might have to get a few more."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["What..."],
+    ["No way..."],
+    ["How could they trick us so?"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You discuss fast food with Allene."],
     [
       "%DONE%"
     ]
@@ -306,7 +354,7 @@
       "%NARRATION%"
     ],
     [
-      "You went to get some burgers PART THREE!"
+      "You get burgers with Allene."
     ],
     [
       "Allene is already waiting for you."

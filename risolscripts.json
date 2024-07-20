@@ -369,7 +369,7 @@
     ["Risol pulls the onions off her burger."],
     ["She puts them on your tray."],
     ["%DATETEXT%"],
-    ["These are for you. Merry Christmas"],
+    ["These are for you. Merry Christmas."],
     ["%ADD1%"],
     [2],
     ["%DATETEXT%"],
@@ -513,14 +513,41 @@
   ],
   "RisolBar3": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the bar with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%NARRATION%"],
+    ["Risol looks serious for a moment."],
+    ["%DATETEXT%"],
+    ["I wonder why..."],
+    ["Less people are coming out to the mall now. I know its already become a bit of a relic but..."],
+    ["What changed that people don't come out anymore?"],
+    ["%CHOICE%"],
+    ["No Money"],
+    ["Too Lazy"],
+    [1],
+    ["%DATETEXT%"],
+    ["Hmm... maybe so."],
+    ["If that's the case..."],
+    ["What do you even do?"],
+    ["Lower the price and quality of the stores inside the mall?"],
+    ["Or RAISE them and just make money off of luxury purchases?"],
+    ["Impossible to say..."],
+    ["%ADD1%"],
+    [2],
+    ["Too lazy?"],
+    ["Like they don't want to go out?"],
+    ["If I've seen anything in my life, its that people are definitely not too lazy to spend money..."],
+    ["Just... "],
+    ["Why are they spending their money at the mall anymore?"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Risol discuss what people want."],
     [
       "%DONE%"
     ]
