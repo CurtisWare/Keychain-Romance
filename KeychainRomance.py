@@ -280,18 +280,30 @@ def getLocationGraphics(location):
 
     if(location != None):
         locationSprite = None
-        if((location == gumchBurger) or (location == whipCat) or (location == rockVenue) or (location == localPark)):
+        if((location == gumchBurger) or (location == whipCat)):
             import Games.KeychainRomance.locationdata1
             locationName = f"{location.label}Sprite"
             locationSprite = getattr(Games.KeychainRomance.locationdata1, locationName)
             location.sprite = locationSprite
             Games.KeychainRomance.locationdata1.clear_data()
-        elif((location == wrestlingRing) or (location == niceRestaurant) or (location == girlHome) or (location == bigMall)):
+        elif((location == wrestlingRing) or (location == niceRestaurant)):
             import Games.KeychainRomance.locationdata2
             locationName = f"{location.label}Sprite"
             locationSprite = getattr(Games.KeychainRomance.locationdata2, locationName)
             location.sprite = locationSprite
             Games.KeychainRomance.locationdata2.clear_data()
+        elif((location == rockVenue) or (location == localPark)):
+            import Games.KeychainRomance.locationdata3
+            locationName = f"{location.label}Sprite"
+            locationSprite = getattr(Games.KeychainRomance.locationdata3, locationName)
+            location.sprite = locationSprite
+            Games.KeychainRomance.locationdata3.clear_data()
+        elif((location == girlHome) or (location == bigMall)):
+            import Games.KeychainRomance.locationdata4
+            locationName = f"{location.label}Sprite"
+            locationSprite = getattr(Games.KeychainRomance.locationdata4, locationName)
+            location.sprite = locationSprite
+            Games.KeychainRomance.locationdata4.clear_data()
     gc.collect()
         
 
@@ -552,11 +564,11 @@ def eventHandler(event, girl, location): #event[action][sentence][textCounter]
     action = 0
     sentence = 0
     textCounter = 0
-    printSpeed = 1
-    textXPos = 1
-    textYPos = 1
-    xLimit = 72 #Point at which the text wraps
-    yLimit = 36 #Lowest Point of the screen that can be written to
+    # printSpeed = 1
+    # textXPos = 1
+    # textYPos = 1
+    # xLimit = 72 #Point at which the text wraps
+    # yLimit = 36 #Lowest Point of the screen that can be written to
     currentString = event[action][sentence].split()
     chosenGift = None
     thumby.display.fill(0)
@@ -689,7 +701,7 @@ def displayStats(girl):
         girl.sprite = None
         girl.maskSprite = None
         print("sprites clear")
-    moduleName = ('Games.KeychainRomance.locationdata1', 'Games.KeychainRomance.locationdata2', 'Games.KeychainRomance.datescripts1', 'Games.KeychainRomance.datescripts2', 'Games.KeychainRomance.datescripts3', 'Games.KeychainRomance.datescripts4', 'Games.KeychainRomance.charactersprites')
+    moduleName = ('Games.KeychainRomance.locationdata1', 'Games.KeychainRomance.locationdata2', 'Games.KeychainRomance.locationdata3', 'Games.KeychainRomance.locationdata4', 'Games.KeychainRomance.datescripts1', 'Games.KeychainRomance.datescripts2', 'Games.KeychainRomance.datescripts3', 'Games.KeychainRomance.datescripts4', 'Games.KeychainRomance.charactersprites')
     for i in moduleName:
         if i in sys.modules:
             del sys.modules[i]
@@ -740,7 +752,11 @@ def saveGame():
     namelist = []
     for gal in callList:
         namelist.append(gal.name)
+    itemList = {}
     thumby.saveData.setItem("listOfGirls", namelist)
+    for key, value in currentInventory.items():
+        itemList[key.name] = value
+    thumby.saveData.setItem("inventory", itemList)
     thumby.saveData.setItem("nadiaAffinity", girlNadia.affinity)
     thumby.saveData.setItem("grapeAffinity", girlGrape.affinity)
     thumby.saveData.setItem("alleneAffinity", girlAllene.affinity)
@@ -1245,13 +1261,13 @@ while(1):
         if(returnToMenu is False):
             
             # TEST SITUATION
-            # chosenGirl = girlAllene
-            # scriptName = f"{chosenGirl.name}Meeting"
-            # eventString = getDateScript(scriptName, chosenGirl.name)
-            # eventHandler(eventString, chosenGirl, bigMall)
-            # returnToMenu = True
-            # gamestate = 3
-            # break
+            chosenGirl = girlRisol
+            scriptName = f"{chosenGirl.name}Bar3"
+            eventString = getDateScript(scriptName, chosenGirl.name)
+            eventHandler(eventString, chosenGirl, whipCat)
+            returnToMenu = True
+            gamestate = 3
+            break
             
             
             
@@ -1425,7 +1441,7 @@ while(1):
             thumby.display.drawText(girl.name(callList[(currentCall - 1)]), 9, 9, 1)
         if(len(callList) != 0):
             thumby.display.drawText(girl.name(callList[currentCall]), 9 , 17, 1)
-        if(len(callList) > 2 and currentCall < (len(callList) - 1)):
+        if(len(callList) >= 2 and currentCall < (len(callList) - 1)):
             thumby.display.drawText(girl.name(callList[(currentCall + 1)]), 9, 25, 1)
         if(len(callList) > 2 and currentCall < (len(callList) - 2)):
             thumby.display.drawSprite(downArrow)
@@ -1535,10 +1551,10 @@ while(1):
             initiateEvent = False
             okToPress = False
             screen_wipe()
-            if(len(callList) > 0):
-                currentCall = 1
-            else:
-                currentCall = 0
+            # if(len(callList) > 0):
+            #     currentCall = 1
+            # else:
+            currentCall = 0
                 
         if(thumby.actionPressed() is False):
             okToPress = True
@@ -1585,7 +1601,7 @@ while(1):
             if(thumby.buttonB.pressed()):
                 initiateEvent = True
                 gamestate = 7
-                screen_wipe()
+                # screen_wipe()
                 break
             thumby.display.setFont("/lib/font5x7.bin", 5, 7, 1)
             thumby.display.drawText("MONEY: " + str(player.money), 9, 1, 1)

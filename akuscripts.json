@@ -752,28 +752,69 @@
   ],
   "AkuMall1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the arcade in the mall with Aku."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Alright, bud."],
+    ["What are you in the mood for?"],
+    ["Something Co-op or do you want to go competitive and do a lil 1 v 1."],
+    ["%CHOICE%"],
+    ["CO-OP"],
+    ["1 vs 1"],
+    [1],
+    ["%DATETEXT%"],
+    ["Boo! Safe choice!"],
+    ["You're never gonna beat me if you don't start practicing!"],
+    [2],
+    ["%DATETEXT%"],
+    ["Let's Go!!"],
+    ["Ya know, with an attitude like that, you'll make the big leagues yet."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Aku play some games at the arcade."],
     [
       "%DONE%"
     ]
   ],
   "AkuMall2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the arcade in the mall with Aku."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["OK, its rhythm game time."],
+    ["I'll let you choose the first song."],
+    ["%NARRATION%"],
+    ["What song will you choose?"],
+    ["%CHOICE%"],
+    ["HardBass"],
+    ["Anime Song"],
+    [1],
+    ["%DATETEXT%"],
+    ["YO THE HARD STUFF."],
+    ["Love it, lets dance, baby!"],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Haha, ok..."],
+    ["I gotta admit I do love this tune."],
+    ["I think I might pick the same song after you're done haha."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You play some rhythm games with Aku."],
     [
       "%DONE%"
     ]
