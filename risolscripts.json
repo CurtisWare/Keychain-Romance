@@ -540,6 +540,7 @@
     ["Impossible to say..."],
     ["%ADD1%"],
     [2],
+    ["%DATETEXT%"],
     ["Too lazy?"],
     ["Like they don't want to go out?"],
     ["If I've seen anything in my life, its that people are definitely not too lazy to spend money..."],
@@ -585,56 +586,151 @@
   ],
   "RisolPark2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the park with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["I love being out here in the park..."],
+    ["It makes me forget about all my responsibilities..."],
+    ["...at least for a moment."],
+    ["Let me ask you."],
+    ["If you didn't have to work... would you still work?"],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["%DATETEXT%"],
+    ["You would?"],
+    ["I'm... honestly not sure if I would or not."],
+    [2],
+    ["%DATETEXT%"],
+    ["You would just take it easy?"],
+    ["I think..."],
+    ["Well, I'd LIKE to think I would do the same."],
+    ["Just enjoy life for what it is."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You walk and talk to Risol about work for a while."],
     [
       "%DONE%"
     ]
   ],
   "RisolPark3": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to the park with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Hmm..."],
+    ["Maybe what the mall is missing is this element of nature."],
+    ["Like maybe we could bring elements of the park to the mall and that would attract people."],
+    ["If you could bring in one thing from nature into a company... what would it be?"],
+    ["%CHOICE%"],
+    ["Fresh Air"],
+    ["Tress"],
+    ["Animals"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah, yeah."],
+    ["Maybe you're right. People like to be outside in a big open area where the air is clean..."],
+    ["Hmm... maybe I can talk with our vendors and get some kind of better air handling in the main area..."],
+    ["%ADD1%"],
+    [2],
+    ["%DATETEXT%"],
+    ["Ah, like tress and plants?"],
+    ["More foliage..."],
+    ["That could work!"],
+    ["I don't want the mall to look like a rainforest, but some more plants might be nice!"],
+    ["%ADD1%"],
+    [3],
+    ["%DATETEXT%"],
+    ["A... animals?"],
+    ["Well... I appreciate your energy."],
+    ["But I'm not sure filling the all with bunches of pooping creatures is a good way to inspire interest..."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You discuss nature with Risol."],
     [
       "%DONE%"
     ]
   ],
   "RisolVenue1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to a show with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Ok, maybe its just me..."],
+    ["But I feel like I'm the oldest one here."],
+    ["Does it bother you when you're the oldest person in the room?"],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["Honestly, me too."],
+    ["I know it shouldn't, but sometimes it feels like I spent the best years of my life just working and I'm not sure how to feel about that."],
+    ["%ADD1%"],
+    [2],
+    ["Really?"],
+    ["Well... maybe if it doesn't make you feel bad... it shouldn't make me feel as bad either."],
+    ["I appreciate that."],
+    ["%ADD2%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Risol talk about aging."],
     [
       "%DONE%"
     ]
   ],
   "RisolVenue2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to a show with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["I gotta say, I'm having a good time..."],
+    ["But I'm slightly annoyed."],
+    ["What brings all these people out to events like this?"],
+    ["Why aren't they coming to MY mall and spending money there instead...?"],
+    ["%CHOICE%"],
+    ["Music"],
+    ["People"],
+    [1],
+    ["%DATETEXT%"],
+    ["Ah... yeah... I guess we can't really compete with the fact that they have live performers..."],
+    ["%NARRATION%"],
+    ["Risol thinks for a moment."],
+    ["%DATETEXT%"],
+    ["...or CAN we...."],
+    ["%ADD1"],
+    [2],
+    ["%DATETEXT%"],
+    ["Mmm... yeah they want to be around people like them."],
+    ["At least when you go to see a musician, you know the people around you at least have your appreciation for the artist in common with you."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You talk about what people enjoy with Risol."],
     [
       "%DONE%"
     ]
@@ -725,6 +821,7 @@
     ["%NARRATION%"],
     ["Risol happily takes the check and pays it."],
     ["She seems pleased with herself and you that she was able to take you out."],
+    ["%ADD1%"],
     ["%MERGE%"],
     ["%NARRATION%"],
     ["Risol drops you off at your house after dinner and drives home."],
@@ -734,14 +831,36 @@
   ],
   "RisolRestaurant2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to a nice restaurant with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["I really like this place."],
+    ["Its one of the few places I go to where I get to look around and think..."],
+    ["\"Yeah... This is my life. I get to enjoy this. I earned this view.\""],
+    ["Do you think that's selfish of me?"],
+    ["%CHOICE%"],
+    ["Yes"],
+    ["No"],
+    [1],
+    ["%DATETEXT%"],
+    ["Oh... "],
+    ["I guess I'm not allowed to be proud of myself."],
+    ["Well... honestly, that tracks."],
+    ["That's how I usually feel, anyway."],
+    [2],
+    ["%DATETEXT%"],
+    ["Yeah! Sometimes you have to take a moment to take pride in how far you've come, right?"],
+    ["Who knows if its worth all the work... but its at least something."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You talk with Risol about accomplishments."],
     [
       "%DONE%"
     ]
