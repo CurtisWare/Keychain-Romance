@@ -751,14 +751,36 @@
   ],
   "RisolWrestling1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to a wrestling match with Risol."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["You know, I gotta say..."],
+    ["I've never really gotten into wrestling, but..."],
+    ["I'm actually pretty excited."],
+    ["It's like sports, but with an element of cinematic drama."],
+    ["In fact, I bet wrestlers make good actors in actual cinema."],
+    ["%CHOICE%"],
+    ["They do"],
+    ["They don't"],
+    [1],
+    ["%DATETEXT"],
+    ["Aha, I knew it."],
+    ["The acting... the physical strength and ability..."],
+    ["They ought to just make movies out of entirely wrestlers..."],
+    ["%ADD1%"],
+    [2],
+    ["Ah..."],
+    ["Maybe a little too much difference between the ring and the big screen huh?"],
+    ["I guess that makes sense."],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["You and Risol enjoy the wrestling match and discuss movies together."],
     [
       "%DONE%"
     ]
@@ -926,14 +948,25 @@
   ],
   "RisolHome2": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "You go to Risol's apartment."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Hey, thanks for coming over. I'm gonna make us dinner."],
+    ["You might not have known, but I'm a pretty good chef."],
+    ["%NARRATION%"],
+    ["You see that Risol's kitchen is full of all kinds of tools and cooking implements, some of which you have never seen before."],
+    ["%DATETEXT%"],
+    ["Have a seat in the living room, I'll bring it in there when I'm done!"],
+    ["%NARRATION%"],
+    ["You don't have to make any decisions this time."],
+    ["You just choose to have a good time with Risol and appreciate her effort."],
+    ["%ADD1%"],
     [
       "%DONE%"
     ]
@@ -1036,14 +1069,80 @@
   ],
   "RisolSpecialEvent1": [
     [
-      "%DATETEXT%"
+      "%NARRATION%"
     ],
     [
-      "This is just test text!"
+      "Risol invites you into her office in the mall."
     ],
     [
       "%LOCATIONGIRL%"
     ],
+    ["%DATETEXT%"],
+    ["Hey, welcome to where I work, most of the time."],
+    ["From now on, just let the receptionist at the front know you're here to see me and she'll let you through whenever you want."],
+    ["%NARRATION%"],
+    ["Your friendship with Risol has certainly tightened. She now trusts you with free access to her work."],
+    ["As you walk through the space where Risol and her coworkers operate, a man in a suit approaches Risol."],
+    ["They speak for a moment and Risol's mood darkens."],
+    ["She turns to you."],
+    ["%DATETEXT%"],
+    ["Hey, sorry. Would you mind hanging out in my office for a few minutes while I sort something out?"],
+    ["%NARRATION%"],
+    ["You sit on an office chair in Risol's office for several minutes."],
+    ["Too many minutes."],
+    ["...maybe you should get up and look for her..."],
+    ["%CHOICE%"],
+    ["Get up"],
+    ["Stay"],
+    [1],
+    ["%NARRATION%"],
+    ["No sooner than you get stand up, Risol walks into the room."],
+    [2],
+    ["%NARRATION%"],
+    ["You decided to do what Risol said and wait."],
+    ["Almost immediately after you decide, Risol walks into the room."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%NARRATION%"],
+    ["Risol is clearly upset."],
+    ["%DATETEXT%"],
+    ["Hey... thanks for waiting."],
+    ["I uh... ugh..."],
+    ["I just got some bad news..."],
+    ["%NARRATION%"],
+    ["Risol is having trouble saying whats on her mind."],
+    ["%CHOICE%"],
+    ["Encourage"],
+    ["Stay quiet"],
+    [1],
+    ["%DATETEXT%"],
+    ["I'm sorry... just... give me a second..."],
+    [2],
+    ["%NARRATION%"],
+    ["You give Risol time."],
+    ["%ADD1%"],
+    ["%MERGE%"],
+    ["%DATETEXT%"],
+    ["Sorry..."],
+    ["You know that the mall isn't doing well..."],
+    ["...and we're having to make cut backs."],
+    ["There aren't a lot of employees who actually work for the mall itself. They're mostly just tenants of the space."],
+    ["So... it sounds like we're getting rid of people who work for us."],
+    ["%NARRATION%"],
+    ["Risol is silent for a moment."],
+    ["%DATETEXT%"],
+    ["Basically, they want me to choose about half of my team to lay off."],
+    ["I... I don't know what to do..."],
+    ["I like the people I work with. They don't deserve to be laid off just because I can't get our revenue up."],
+    ["I... this wouldn't be happening if I was better."],
+    ["%NARRATION%"],
+    ["Risol's expression quickly changes. She is clearly embarrassed that she has been telling you all of this."],
+    ["%DATETEXT%"],
+    ["Oh geez, sorry! This isn't your problem at all."],
+    ["Let's do something else. Let's step out for a bit, huh?"],
+    ["%NARRATION%"],
+    ["You both get lunch in the food court."],
+    ["Risol doesn't mention her problems any more... but you can tell they are weighing on her mind."],
     [
       "%DONE%"
     ]
