@@ -674,10 +674,7 @@
       "%DATETEXT%"
     ],
     [
-      "This is just test text!"
-    ],
-    [
-      "%LOCATIONGIRL%"
+      "Thank you. I very much appreciate the gesture."
     ],
     [
       "%DONE%"
@@ -688,10 +685,7 @@
       "%DATETEXT%"
     ],
     [
-      "This is just test text!"
-    ],
-    [
-      "%LOCATIONGIRL%"
+      "Thank you! Your thoughtfulness brings a delight to my heart."
     ],
     [
       "%DONE%"
@@ -702,8 +696,11 @@
       "%DATETEXT%"
     ],
     [
-      "This is just test text!"
+      "This is..."
     ],
+    ["I don't know what to say. It reminds me so much of my home... and my history."],
+    ["Thank you, I genuinely mean it."],
+    ["I will always think of you when I look at this."],
     [
       "%LOCATIONGIRL%"
     ],
